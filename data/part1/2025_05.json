@@ -1,0 +1,802 @@
+[
+  {
+    "id": "M1_001",
+    "system": "Cardiology",
+    "q": "A 52-year-old man is referred to the Cardiology Clinic for recurrent palpitations and fatigue. He reports episodes of irregular heartbeats lasting several hours, confirmed as AF on prior ECGs. Workup reveals no structural heart disease, and he is scheduled for catheter ablation. What is the most likely anatomical site targeted during catheter ablation?",
+    "o": {"A": "Atrioventricular node", "B": "Coronary sinus", "C": "Left atrial appendage", "D": "Ostia of pulmonary veins", "E": "Right atrium"},
+    "a": "D",
+    "e": "The ostia of pulmonary veins are the most likely anatomical site targeted during pulmonary vein isolation that is the predominant ablation strategy for both paroxysmal and persistent AF. These veins are known to harbour ectopic pacemaker cells that initiate atrial fibrillation, and isolation of these foci disrupts the arrhythmogenic triggers. The absence of structural heart disease supports this approach in the vignette."
+  },
+  {
+    "id": "M1_002",
+    "system": "Clinical Pharmacology",
+    "q": "A 24-year-old woman presents to the Emergency Department. She reports nausea, vomiting and abdominal pain after ingesting 25 paracetamol tablets 6 hours ago. Examination reveals mild epigastric tenderness, and her serum paracetamol concentration is 120 mg/L. What is the most appropriate next step in management?",
+    "o": {"A": "Administer activated charcoal", "B": "Commence intravenous N-acetylcysteine immediately", "C": "Discharge with advice and follow-up", "D": "Monitor liver function and repeat paracetamol levels in 4 hours", "E": "Perform gastric lavage"},
+    "a": "B",
+    "e": "Intravenous N-acetylcysteine is the antidote for paracetamol toxicity and should be started immediately in this patient due to her serum paracetamol concentration being above the treatment threshold at 6 hours post-ingestion on the Revised Rumack-Matthew nomogram, which can only be used in acute immediate-release paracetamol ingestions with a known time of ingestion. This intervention prevents liver damage by replenishing glutathione stores and neutralising the toxic metabolite NAPQI. Delaying treatment increases the risk of hepatotoxicity and acute liver failure. It should be continued till a laboratory evidence of improvement. N-acetylcysteine is effective even if given late in the overdose course, making it the most appropriate next step in this case."
+  },
+  {
+    "id": "M1_003",
+    "system": "Cardiology",
+    "q": "A 65-year-old man presents to the Cardiology Clinic with progressive exertional dyspnoea and bilateral ankle swelling. He reports orthopnoea and nocturnal dyspnoea over the past month. Examination reveals jugular venous distension and pitting oedema to the mid-shins. What is the mechanism by which natriuretic peptides are elevated in this patient?",
+    "o": {"A": "Activation of the renin-angiotensin-aldosterone system", "B": "Atrial and ventricular wall stretch", "C": "Decreased renal perfusion", "D": "Reduction in systemic vascular resistance", "E": "Stimulation of baroreceptors in the carotid sinus"},
+    "a": "B",
+    "e": "Natriuretic peptides, such as B-type natriuretic peptide (BNP) and atrial natriuretic peptide (ANP), are released in response to increased atrial and ventricular wall stretch due to volume overload and elevated intracardiac pressures to promote natriuresis, diuresis and vasodilation. This patient’s symptoms of dyspnoea, orthopnoea and oedema, alongside examination findings of jugular venous distension, suggest significant volume overload consistent with congestive heart failure. This is the most likely pathophysiological mechanism in this case."
+  },
+  {
+    "id": "M1_004",
+    "system": "Endocrinology",
+    "q": "A 48-year-old man is referred to the Endocrinology Clinic for persistent hypertension despite being on antihypertensive therapy. An aldosterone-to-renin ratio (ARR) of 80 is noted during investigations for suspected primary hyperaldosteronism. Which of the following drugs is most likely to result in this elevated aldosterone-to-renin ratio?",
+    "o": {"A": "Alpha blockers", "B": "Angiotensin-converting enzyme inhibitors", "C": "Beta blockers", "D": "Calcium channel blockers", "E": "Thiazide diuretics"},
+    "a": "C",
+    "e": "Beta blockers suppress renin release from the juxtaglomerular cells by inhibiting beta-1 adrenergic receptors. This leads to a disproportionately low renin level relative to aldosterone, resulting in a high ARR. This mechanism explains the elevated ratio observed in the patient."
+  },
+  {
+    "id": "M1_005",
+    "system": "Gastroenterology",
+    "q": "A 56-year-old man presents to the Emergency Department with fever, abdominal pain and confusion over the past 24 hours. Ascitic fluid analysis reveals an elevated neutrophil count, and serum creatinine is markedly raised. What is the most appropriate management for this patient?",
+    "o": {"A": "Ceftriaxone and albumin infusion", "B": "Ceftriaxone alone", "C": "Ciprofloxacin prophylaxis", "D": "Paracentesis without antibiotics", "E": "Vancomycin and albumin"},
+    "a": "A",
+    "e": "Ceftriaxone and albumin infusion is the correct choice as this patient has spontaneous bacterial peritonitis (SBP) complicated by renal dysfunction, indicated by the ascitic neutrophil count and raised serum creatinine. Hypoalbuminaemia in SBP contributes to circulatory dysfunction and renal failure, and albumin infusion has been shown to reduce mortality. It is used alongside appropriate antibiotics, such as ceftriaxone, to manage the infection and prevent further complications."
+  },
+  {
+    "id": "M1_006",
+    "system": "Medical Genetics",
+    "q": "A 30-year-old woman presents to the Genetics Clinic for counselling regarding haemophilia in her family. She reports that her maternal uncle and brother are both affected by the condition. There is no history of haemophilia in her paternal lineage. What is the probability that her daughter will be affected or be a carrier of haemophilia?",
+    "o": {"A": "0% chance of being affected, 50% chance of being a carrier", "B": "0% chance of being affected, 25% chance of being a carrier", "C": "25% chance of being affected, 25% chance of being a carrier", "D": "50% chance of being affected, 50% chance of being a carrier", "E": "50% chance of being affected, 25% chance of being a carrier"},
+    "a": "A",
+    "e": "Haemophilia is an X-linked recessive condition; it is primarily passed on through the X chromosome. The woman has a 50% chance of passing on the affected X chromosome to her daughter, making her a carrier. Still, daughters cannot be affected since they inherit a normal X chromosome from their unaffected father. Thus, there is 0% chance of being affected and 50% chance of being a carrier."
+  },
+  {
+    "id": "M1_007",
+    "system": "Infectious Diseases",
+    "q": "A 35-year-old man farmer presents to his General Practitioner after noticing a painful lesion on his right index finger. He denies systemic symptoms. Examination reveals a solitary, well-demarcated, erythematous nodule with a central crusted area on the finger. What is the most likely diagnosis?",
+    "o": {"A": "Anthrax", "B": "Herpetic whitlow", "C": "Orf", "D": "Pyogenic granuloma", "E": "Sporotrichosis"},
+    "a": "C",
+    "e": "Orf is a zoonotic infection caused by the parapoxvirus Orfviridae, commonly seen in individuals handling sheep or goats as farmers or butchers. The characteristic solitary, painful, erythematous nodule with a central crust on the digits of the hand, along with a history of sheep exposure as part of his occupational hazards, strongly supports this diagnosis. The incubation period is approximately 3–7 days. Systemic symptoms are rare, consistent with this presentation."
+  },
+  {
+    "id": "M1_008",
+    "system": "Nephrology",
+    "q": "A 68-year-old man presents to the Emergency Department with confusion and lethargy. Initial blood tests reveal a sodium level of 118 mmol/L. His urine osmolality is 600 mOsm/kg and serum osmolality is 260 mOsm/kg. What is the most appropriate initial management?",
+    "o": {"A": "Administer 0.9% saline infusion", "B": "Administer 3% saline infusion", "C": "Fluid restriction to 800 mL/day", "D": "Start oral demeclocycline", "E": "Start oral tolvaptan"},
+    "a": "B",
+    "e": "3% saline infusion is the most appropriate initial management for severe symptomatic hyponatraemia (confusion and lethargy). This patient’s sodium of 118 mmol/L and osmolality findings are indicative of Syndrome of Inappropriate Antidiuretic Hormone (SIADH), where urgent initial correction is needed to prevent cerebral oedema. Hypertonic saline increases plasma sodium concentration effectively and safely in this emergency. Careful monitoring is essential to avoid overly rapid correction, which can cause osmotic demyelination syndrome, resulting in quadriplegia."
+  },
+  {
+    "id": "M1_009",
+    "system": "Nephrology",
+    "q": "A 35-year-old woman presents to the Emergency Department with flank pain and haematuria. She has a history of sickle cell trait and recently started taking ibuprofen for musculoskeletal pain. Examination reveals tenderness over the left flank but no fever or signs of systemic infection. What is the most likely renal complication in this patient?",
+    "o": {"A": "Acute interstitial nephritis", "B": "Acute tubular necrosis", "C": "Chronic kidney disease", "D": "Papillary necrosis", "E": "Renal artery thrombosis"},
+    "a": "D",
+    "e": "Papillary necrosis is strongly associated with sickle cell trait, particularly when exacerbated by NSAID use, which is characterised by coagulative necrosis of the renal medullary pyramids and papillae. The patient's presentation of flank pain and haematuria is classic for this condition. Sickle cell trait leads to microvascular occlusion in the renal medulla, while NSAIDs worsen the risk by inhibiting prostaglandin-mediated vasodilation, reducing renal perfusion and predisposing to medullary ischaemia. Diagnosis is confirmed via CT urography. This combination explains the acute onset of symptoms in this patient."
+  },
+  {
+    "id": "M1_010",
+    "system": "Rheumatology",
+    "q": "A 45-year-old woman presents to the Rheumatology Clinic with worsening cold-induced finger discolouration. She reports skin tightening in her fingers and intermittent difficulty swallowing solids. Examination reveals telangiectasia on her face and calcinosis on the fingertips. What is the most likely diagnosis?",
+    "o": {"A": "Limited systemic sclerosis", "B": "Dermatomyositis", "C": "Polyarteritis nodosa", "D": "Primary Raynaud's phenomenon", "E": "Systemic lupus erythematosus"},
+    "a": "A",
+    "e": "Limited systemic sclerosis, formerly known as CREST syndrome, is most likely given the combination of Raynaud's phenomenon, telangiectasia, calcinosis and skin tightening in the fingers. Dysphagia is common due to oesophageal dysmotility, a typical feature of CREST syndrome. The patient’s presentation aligns with the hallmark features of this condition. Alternative diagnoses lack the specific cluster of symptoms seen here."
+  },
+  {
+    "id": "M1_011",
+    "system": "Infectious Diseases",
+    "q": "A 32-year-old woman presents to the Emergency Department with a 2-day history of abdominal pain and bloody diarrhoea. She returned from a hiking trip one month ago, where she consumed untreated stream water. Stool microscopy reveals trophozoites with ingested red blood cells. What is the most likely causative organism?",
+    "o": {"A": "Campylobacter jejuni", "B": "Clostridioides difficile", "C": "Entamoeba histolytica", "D": "Salmonella enteritidis", "E": "Shigella dysenteriae"},
+    "a": "C",
+    "e": "Entamoeba histolytica is the most likely cause, as it is a protozoan responsible for amoebic dysentery. The patient's history of consuming untreated water during hiking aligns with the faecal-oral transmission route. Stool microscopy showing trophozoites with ingested red blood cells is a diagnostic feature for E. histolytica. It is confirmed using stool antigen detection or stool nucleic acid amplification tests (NAATs/PCR). This organism invades the colonic mucosa, leading to bloody diarrhoea and abdominal pain."
+  },
+  {
+    "id": "M1_012",
+    "system": "Respiratory Medicine",
+    "q": "A 28-year-old pregnant woman presents to the Respiratory Clinic. She reports worsening asthma control with frequent exacerbations despite regular use of her inhaled short-acting beta-agonist (SABA). She has no history of other comorbidities or recent infections. What is the most appropriate next step for this patient?",
+    "o": {"A": "Low-dose corticosteroid/formoterol combination inhaler", "B": "Leukotriene receptor antagonist", "C": "Oral theophylline", "D": "Salbutamol nebuliser", "E": "Salmeterol"},
+    "a": "A",
+    "e": "A low-dose corticosteroid/formoterol combination inhaler, as needed, is the first-step therapy for asthma that is not controlled by SABA only. They are safe in pregnancy and reduce airway inflammation, preventing exacerbations. This patient’s frequent exacerbations indicate poor asthma control that requires escalation of treatment. As-needed Anti-inflammatory reliever (AIR) therapy is the most evidence-based and appropriate intervention as per the new guidelines of BTS/NICE/SIGN."
+  },
+  {
+    "id": "M1_013",
+    "system": "Infectious Diseases",
+    "q": "A 28-year-old woman presents to the antenatal clinic at 36 weeks of gestation. She reports dysuria, urinary frequency and suprapubic discomfort for the past three days. A midstream urine sample shows significant bacteriuria with Escherichia coli sensitive to multiple antibiotics. What is the most appropriate antibiotic for this patient?",
+    "o": {"A": "Amoxicillin", "B": "Cephalexin", "C": "Ciprofloxacin", "D": "Nitrofurantoin", "E": "Trimethoprim"},
+    "a": "B",
+    "e": "Cephalexin is the most appropriate antibiotic for this patient as it is effective against E. coli, commonly used for UTIs in pregnancy and has a good safety profile in this population. It is a first-generation cephalosporin with adequate urinary concentration and low resistance rates for E. coli. Furthermore, it poses minimal risk to the developing foetus. Given the sensitivity profile in this case, cephalexin is the optimal choice to ensure effective treatment."
+  },
+  {
+    "id": "M1_014",
+    "system": "Cardiology",
+    "q": "A 55-year-old man presents to the Cardiology Clinic with progressive exertional dyspnoea, peripheral oedema and abdominal distension. On examination, he has elevated jugular venous pressure with a prominent y descent, Kussmaul's sign and a pericardial knock. No murmurs are noted, and an ECG shows diffuse low-voltage complexes. What is the most likely diagnosis?",
+    "o": {"A": "Constrictive pericarditis", "B": "Dilated cardiomyopathy", "C": "Restrictive cardiomyopathy", "D": "Right ventricular failure secondary to pulmonary hypertension", "E": "Tricuspid regurgitation"},
+    "a": "A",
+    "e": "Constrictive pericarditis is the most likely diagnosis as this patient demonstrates hallmark features, including pericardial knock, elevated jugular venous pressure with a prominent y descent, and Kussmaul's sign. These signs indicate impaired ventricular filling due to a rigid pericardium. Progressive exertional dyspnoea and peripheral oedema further support this diagnosis. Diffuse low voltage on ECG is a typical finding in constrictive pericarditis, reflecting pericardial thickening or effusion."
+  },
+  {
+    "id": "M1_015",
+    "system": "Cardiology",
+    "q": "A 43-year-old woman presents to the Cardiology Clinic for evaluation of exertional dyspnoea. She reports a history of fatigue and mild orthopnoea over the past year. Cardiovascular examination reveals suspected mitral stenosis. What is the most likely physical sign present in this patient?",
+    "o": {"A": "Diastolic murmur", "B": "Ejection systolic murmur", "C": "Fourth heart sound", "D": "Pericardial friction rub", "E": "Soft first heart sound"},
+    "a": "A",
+    "e": "A diastolic murmur, specifically a low-pitched, rumbling murmur heard best at the apex with the patient in the left lateral position, is characteristic of mitral stenosis. This murmur is caused by turbulent blood flow across the narrowed mitral valve during diastole. Also, a loud first heart sound is another hallmark of mitral stenosis. These findings together strongly indicate moderate mitral stenosis in this patient."
+  },
+  {
+    "id": "M1_016",
+    "system": "Infectious Diseases",
+    "q": "A 35-year-old man presents to the General Practitioner with fatigue and intermittent nausea. Bloods reveal abnormal liver function tests with elevated ALT and bilirubin. Hepatitis B serology shows HBsAg positive, anti-HBc IgM positive and anti-HBs negative. What is the most likely interpretation of his hepatitis B serology?",
+    "o": {"A": "Acute hepatitis B infection", "B": "Chronic hepatitis B infection", "C": "Immune due to resolved infection", "D": "Immune due to vaccination", "E": "Window period of hepatitis B infection"},
+    "a": "A",
+    "e": "Acute hepatitis B infection is marked by HBsAg positivity. The presence of anti-HBc IgM specifically confirms recent infection. Anti-HBs negativity excludes immunity from prior infection or vaccination. His clinical presentation of fatigue and abnormal liver function tests aligns with acute hepatitis B."
+  },
+  {
+    "id": "M1_017",
+    "system": "Oncology",
+    "q": "A 55-year-old man presents to the Emergency Department with nasal obstruction, epistaxis and a neck mass. Examination reveals a firm, non-tender cervical lymph node, and nasoendoscopy shows a mass in the nasopharynx. Biopsy confirms undifferentiated nasopharyngeal carcinoma. Which viral family is most likely associated with this patient's condition?",
+    "o": {"A": "Adenoviridae", "B": "Flaviviridae", "C": "Herpesviridae", "D": "Orthomyxoviridae", "E": "Papillomaviridae"},
+    "a": "C",
+    "e": "Herpesviridae, specifically Epstein-Barr virus (EBV), is strongly associated with nasopharyngeal carcinoma, particularly in endemic regions, such as Africa, where almost all cases are positive. EBV infection promotes oncogenesis through latent membrane proteins and other viral factors. The patient's associated lymphadenopathy is characteristic of EBV-related malignancy. This makes Herpesviridae the most likely viral family."
+  },
+  {
+    "id": "M1_018",
+    "system": "Medical Statistics",
+    "q": "A 45-year-old woman is evaluated in a clinical research setting. She is part of a study assessing the performance of a diagnostic test for a specific condition. The results show 47 true positive cases and 3 false negative cases in a cohort of 50 patients with the condition. What is the sensitivity of this test?",
+    "o": {"A": "86%", "B": "88%", "C": "92%", "D": "96%", "E": "94%"},
+    "a": "E",
+    "e": "94% is the correct answer. Sensitivity is defined as True Positives / (True Positives + False Negatives). Here, 47 / (47 + 3) = 47/50 = 0.94 or 94%. This result reflects the diagnostic accuracy of detecting true positives in this cohort."
+  },
+  {
+    "id": "M1_019",
+    "system": "Clinical Pharmacology",
+    "q": "A 49-year-old man presents to the Emergency Department two days after an elective surgical procedure with agitation, confusion and visual hallucinations, along with tremor and diaphoresis. On examination, he is tachycardic and hypertensive. What is the most appropriate pharmacological management for this condition?",
+    "o": {"A": "Chlordiazepoxide", "B": "Haloperidol", "B": "Lorazepam", "D": "Phenobarbital", "E": "Thiamine"},
+    "a": "A",
+    "e": "Chlordiazepoxide is the drug of choice for managing alcohol withdrawal symptoms, including delirium tremens, as seen in this patient. It is a long-acting benzodiazepine that helps prevent seizures and reduces agitation by enhancing GABAergic activity. The vignette describes classic features of alcohol withdrawal: autonomic hyperactivity (tachycardia and hypertension), tremor and hallucinations. Early treatment with chlordiazepoxide can prevent progression to severe complications such as seizures."
+  },
+  {
+    "id": "M1_020",
+    "system": "Ophthalmology",
+    "q": "A 32-year-old woman with type I diabetes is referred to the Ophthalmology Clinic with blurred and reduced vision in both eyes over the past month. Fundoscopy reveals microaneurysms, retinal haemorrhages, and retinal thickening bilaterally. What is the most likely diagnosis?",
+    "o": {"A": "Non-proliferative diabetic retinopathy with macular oedema", "B": "Non-proliferative diabetic retinopathy without macular involvement", "C": "Hypertensive retinopathy", "D": "Optic neuritis", "E": "Retinal vein occlusion"},
+    "a": "A",
+    "e": "Non-proliferative diabetic retinopathy with macular oedema is the most likely diagnosis, as this patient with type I diabetes presents with blurred and reduced vision, which correlates with macular involvement. Fundoscopy findings of retinal microaneurysms and haemorrhages suggest non-proliferative diabetic retinopathy, and retinal thickening indicates diabetic macular oedema, which is a common complication in this context. Macular oedema involves fluid accumulation in the macula, disrupting vision."
+  },
+  {
+    "id": "M1_021",
+    "system": "Psychiatry",
+    "q": "A 49-year-old woman presents to the Emergency Department with low mood and worsening fatigue. She reports persistent guilt, early morning waking and auditory hallucinations of derogatory voices. There is a history of a previous suicide attempt two months ago. What is the most likely diagnosis?",
+    "o": {"A": "Bipolar affective disorder", "B": "Depressive psychosis", "C": "Major depressive disorder", "D": "Persistent depressive disorder", "E": "Schizoaffective disorder"},
+    "a": "B",
+    "e": "Depressive psychosis is the most likely diagnosis, given the severe depressive features (low mood, guilt, early morning waking) accompanied by psychotic symptoms (auditory hallucinations of derogatory voices). The auditory hallucinations are typically mood-congruent, often seen in psychotic depression. Her recent suicide attempt also aligns with the significant severity and risk seen in depressive psychosis. The absence of manic symptoms supports this over other diagnoses."
+  },
+  {
+    "id": "M1_022",
+    "system": "Neurology",
+    "q": "A 42-year-old man presents to the Emergency Department with a sudden onset of diplopia and right-sided facial weakness. Examination reveals impaired abduction of the right eye, right facial palsy affecting the entire side of the face, and reduced pain and temperature sensation over the left side of the body. Limb power is preserved. Where is the most likely site of the lesion?",
+    "o": {"A": "Left lateral medulla", "B": "Left midbrain tegmentum", "C": "Right cerebellopontine angle", "D": "Right pons", "E": "Right thalamus"},
+    "a": "D",
+    "e": "The right pons involves the abducens nucleus (cranial nerve VI) and the facial nerve (cranial nerve VII), which explains the impaired abduction of the right eye and the right lower motor neuron facial palsy (affecting the entire side of the face). The crossing fibres of the spinothalamic tract account for the contralateral sensory loss of pain and temperature over the body, making this the most likely site of the lesion."
+  },
+  {
+    "id": "M1_023",
+    "system": "Palliative Care",
+    "q": "An 82-year-old woman is admitted to the hospice for palliative care. She presents with profuse vaginal bleeding and significant distress. Examination reveals pallor and a fungating pelvic tumour. What is the most appropriate immediate management?",
+    "o": {"A": "Administration of tranexamic acid", "B": "Initiating palliative radiotherapy", "C": "Prescribing high-dose oral progestogens", "D": "Providing vaginal packing to control bleeding", "E": "Transfusion of packed red cells"},
+    "a": "D",
+    "e": "Vaginal packing is the most appropriate immediate management for acute haemorrhage caused by a fungating pelvic tumour. It provides direct pressure to the bleeding site, helping to control blood loss and stabilise the patient. This approach is particularly suitable for palliative patients where definitive treatments, such as surgery, are not feasible."
+  },
+  {
+    "id": "M1_024",
+    "system": "Rheumatology",
+    "q": "A 47-year-old man presents to the Emergency Department with an acute onset of severe pain, redness and swelling in his right big toe after consuming alcohol. Polarised light microscopy of synovial fluid aspirate reveals negatively birefringent crystals. What is the most likely type of crystal observed under the microscope?",
+    "o": {"A": "Calcium pyrophosphate", "B": "Cholesterol", "C": "Monosodium urate", "D": "Oxalate", "E": "Steroid"},
+    "a": "C",
+    "e": "Monosodium urate crystals are strongly negatively birefringent under polarised light microscopy and are diagnostic of gout. This patient's acute monoarthritis affecting the first metatarsophalangeal joint and association with alcohol consumption align strongly with gout as the underlying condition."
+  },
+  {
+    "id": "M1_025",
+    "system": "Cardiology",
+    "q": "A 64-year-old man is brought to the Emergency Department after a witnessed cardiac arrest caused by ventricular fibrillation. He is successfully resuscitated and achieves return of spontaneous circulation. Post-resuscitation ECG shows ST-segment elevation greater than 2 mm in contiguous leads. What is the most important next step in management?",
+    "o": {"A": "Administer intravenous amiodarone", "B": "Initiate therapeutic hypothermia", "C": "Perform immediate coronary angiography", "D": "Start dual antiplatelet therapy and observe", "E": "Transfer to the intensive care unit for supportive care"},
+    "a": "C",
+    "e": "Immediate coronary angiography is the most critical step because ST-segment elevation implies an acute myocardial infarction as the cause of cardiac arrest. Early revascularisation is crucial to minimise myocardial damage. The European Resuscitation Council guidelines recommend urgent coronary angiography for post-cardiac arrest patients with ST-segment elevation. This intervention directly addresses the likely underlying pathology."
+  },
+  {
+    "id": "M1_026",
+    "system": "Rheumatology",
+    "q": "A 32-year-old woman presents to the Rheumatology Clinic for management of lupus nephritis. She says she plans to get pregnant and is controlled on several medications. Which drug should be discontinued immediately in this patient?",
+    "o": {"A": "Azathioprine", "B": "Hydroxychloroquine", "C": "Mycophenolate mofetil", "D": "Prednisolone", "E": "Tacrolimus"},
+    "a": "C",
+    "e": "Mycophenolate mofetil is an antimetabolite that is teratogenic and contraindicated in pregnancy due to its association with congenital malformations and first-trimester spontaneous abortion. Patients planning pregnancy should be switched to an alternative such as azathioprine before conception. Immediate discontinuation of mycophenolate is essential in this patient."
+  },
+  {
+    "id": "M1_027",
+    "system": "Gastroenterology",
+    "q": "A 47-year-old man presents to his General Practitioner with fatigue and bloating. Examination reveals mild pallor and a blood film shows Howell-Jolly bodies. Further history reveals chronic diarrhoea and unintentional weight loss over the past few years. What is the most likely diagnosis?",
+    "o": {"A": "Autoimmune haemolytic anaemia", "B": "Cealiac disease", "C": "Chronic pancreatitis", "D": "Crohn’s disease", "E": "Vitamin B12 deficiency"},
+    "a": "B",
+    "e": "Cealiac disease is the most likely diagnosis. The presence of Howell-Jolly bodies on the blood film indicates hyposplenism, which is a recognised feature of long-standing, untreated coeliac disease. Chronic diarrhoea, weight loss and fatigue are classic symptoms of malabsorption in coeliac disease. Further confirmation would require serological testing (e.g., anti-tissue transglutaminase antibodies) and possibly duodenal biopsy."
+  },
+  {
+    "id": "M1_028",
+    "system": "Rheumatology",
+    "q": "A 67-year-old woman undergoes a DEXA scan, which reveals T-scores of -0.6 at the lumbar spine and -0.9 at the femoral neck. She has a history of menopause at age 50 but no history of fractures. What is the most likely interpretation of the DEXA scan results?",
+    "o": {"A": "Normal bone mineral density", "B": "Osteomalacia", "C": "Osteopenia", "D": "Osteoporosis", "E": "Renal osteodystrophy"},
+    "a": "A",
+    "e": "Normal bone mineral density is defined by a T-score between -1.0 and +1.0, which applies to this patient’s results of -0.6 and -0.9. Her scores do not fall into the ranges for osteopenia or osteoporosis. Additionally, she has no history of fractures or risk factors suggesting bone fragility. Therefore, her DEXA findings are consistent with normal bone density."
+  },
+  {
+    "id": "M1_029",
+    "system": "Medical Genetics",
+    "q": "A 12-year-old boy is brought to the Genetics Clinic with a history of progressive muscle weakness and difficulty climbing stairs. His maternal uncle had similar symptoms and was wheelchair-bound by his 20s. What is the most likely mode of inheritance for this condition?",
+    "o": {"A": "Autosomal dominant", "B": "Autosomal recessive", "C": "Mitochondrial inheritance", "D": "X-linked dominant", "E": "X-linked recessive"},
+    "a": "E",
+    "e": "X-linked recessive inheritance fits this case, as the condition primarily affects males, who have only one X chromosome and is transmitted through carrier females. The maternal uncle's symptoms and the boy's presentation strongly suggest a recessive X-linked disorder such as Duchenne muscular dystrophy, which is characterised by progressive muscle weakness and wheelchair-dependence by adolescence or early adulthood."
+  },
+  {
+    "id": "M1_030",
+    "system": "Clinical Pharmacology",
+    "q": "A 47-year-old man is brought to the Emergency Department with multiple bruises and high BP following a motor vehicle collision. He develops recurrent episodes of hypoglycaemia despite receiving dextrose infusions while controlling his acute condition. What is the most likely mechanism contributing to his hypoglycaemia?",
+    "o": {"A": "Beta blocker-induced inhibition of glycogenolysis", "B": "Calcium channel blocker-induced suppression of insulin secretion", "C": "Excessive insulin release due to stress", "D": "Hypothalamic dysfunction caused by head trauma", "E": "Reduced gluconeogenesis from hepatic injury"},
+    "a": "A",
+    "e": "Beta blockers inhibit glycogenolysis and blunt the adrenergic response, which is critical for counteracting hypoglycaemia. This patient’s recurrent hypoglycaemia is likely exacerbated by beta blockers, impairing his normal stress response. The vignette specifies hypertension and possible antihypertensive drug administration and excludes other causes, like insulin overdose or sepsis. This is the most plausible mechanism in this context."
+  },
+  {
+    "id": "M1_031",
+    "system": "Nephrology",
+    "q": "A 32-year-old woman presents to the Emergency Department with sudden-onset flank pain and dark urine. She reports a history of sickle cell disease. Urinalysis shows proteinuria and microscopic haematuria with no evidence of infection. What is the most likely diagnosis?",
+    "o": {"A": "Acute interstitial nephritis", "B": "Renal papillary necrosis", "C": "Renal vein thrombosis", "D": "Sickle cell nephropathy", "E": "Urinary tract infection"},
+    "a": "B",
+    "e": "Renal papillary necrosis is a known complication of sickle cell disease due to vascular occlusion and is consistent with this patient’s acute flank pain. Haematuria and proteinuria are common findings and the absence of infection on urinalysis supports this diagnosis. This condition is caused by ischaemia and infarction of renal papillae. Sloughing of papillae eventually may predispose to acute urinary tract obstruction."
+  },
+  {
+    "id": "M1_032",
+    "system": "Rheumatology",
+    "q": "A 36-year-old woman presents to the Rheumatology Clinic with worsening fatigue and joint pain. Recent blood tests show low complement levels, including reduced C3 and C4. Urine analysis reveals proteinuria. What is the most likely cause of her reduced complement levels?",
+    "o": {"A": "Active systemic lupus erythematosus", "B": "Chronic complement deficiency", "C": "Drug-induced lupus", "D": "Infection-related complement consumption", "E": "Mixed connective tissue disease"},
+    "a": "A",
+    "e": "Active systemic lupus erythematosus is supported by the patient's symptoms of fatigue and joint pain in a middle-aged woman, and the presence of proteinuria suggests renal involvement. Decreased levels of C3 and C4 occur in disease activity due to immune complex deposition and complement activation in the kidneys. Complement levels are commonly used as markers of disease activity in lupus, making this the most likely cause."
+  },
+  {
+    "id": "M1_033",
+    "system": "Infectious Diseases",
+    "q": "A 35-year-old man presents to the Emergency Department with fever, fatigue and multiple painful vesicular lesions on his hands. He reports handling livestock on a farm two weeks ago. Examination reveals well-demarcated, hemorrhagic pustules with surrounding erythema on his fingers. What is the most likely diagnosis?",
+    "o": {"A": "Anthrax", "B": "Cowpox", "C": "Orf virus infection", "D": "Rickettsialpox", "E": "Tularemia"},
+    "a": "C",
+    "e": "Orf virus infection, also known as contagious pustular dermatitis, is a zoonotic disease transmitted from sheep or goats. The patient’s occupation as a livestock handler and the appearance of painful pustular lesions on his hands are classic features. The incubation period of approximately 3-7 days fits his timeline, and the lesion starts as an erythematous papule, which rapidly progresses (often by the second week) to become a tender, weeping, hemorrhagic nodule or a pustule. These findings make Orf virus infection the most likely diagnosis."
+  },
+  {
+    "id": "M1_034",
+    "system": "Infectious Diseases",
+    "q": "A 42-year-old woman presents to the General Practitioner with a circular, expanding rash on her thigh after a recent hiking trip. She reports fatigue and mild joint pain. Serological testing reveals negative Borrelia burgdorferi IgM antibodies but positive IgM antibodies to Epstein–Barr virus and cytomegalovirus. What is the most likely diagnosis?",
+    "o": {"A": "Acute cytomegalovirus infection", "B": "Acute Epstein–Barr virus infection", "C": "Erythema multiforme", "D": "Lyme disease", "E": "Systemic lupus erythematosus"},
+    "a": "D",
+    "e": "Lyme disease is the most likely diagnosis given the presence of erythema migrans occurring 1 to 2 weeks after a tick bite, which is pathognomonic of early localized disease and does not require serological confirmation. Negative IgM antibodies early in the disease are expected due to the time required for antibody production (window period), and the positive IgM antibodies to other viruses are likely incidental findings. The history of a hiking trip supports tick exposure as the source of infection. Fatigue and joint pain are aligned with early Lyme disease manifestations."
+  },
+  {
+    "id": "M1_035",
+    "system": "Oncology",
+    "q": "A 62-year-old man presents to the Emergency Department with confusion and lethargy. He reports a 6-month history of cough and unintentional weight loss and was diagnosed with small-cell lung cancer. What is the most likely complication associated with this patient's presentation?",
+    "o": {"A": "Adrenal insufficiency", "B": "Hypercalcaemia of malignancy", "C": "Hyponatraemia due to SIADH", "D": "Lambert-Eaton myasthenic syndrome", "E": "Paraneoplastic cerebellar degeneration"},
+    "a": "C",
+    "e": "Hyponatraemia due to Syndrome of Inappropriate Antidiuretic Hormone (SIADH) is the most likely complication given the clinical features of confusion and lethargy. SIADH is a common paraneoplastic syndrome associated with small cell lung cancer, which fits the history of cough and weight loss. The pathophysiology involves inappropriate secretion of antidiuretic hormone, leading to water retention and dilutional hyponatraemia. Prompt management with fluid restriction and addressing the underlying malignancy is essential."
+  },
+  {
+    "id": "M1_036",
+    "system": "Medical Statistics",
+    "q": "A 45-year-old man presents to the General Practitioner for routine health screening. He undergoes a test for a condition prevalent in 5% of the population. The test has a sensitivity of 90% and a specificity of 85%. What is the negative predictive value of this test?",
+    "o": {"A": "0.70", "B": "0.85", "C": "0.94", "D": "0.99", "E": "0.98"},
+    "a": "D",
+    "e": "The negative predictive value (NPV) is calculated considering the test's specificity, sensitivity and disease prevalence. With a prevalence of 5%, sensitivity of 90% and specificity of 85%, the NPV is approximately 99%. This indicates a 99% probability that a negative test result correctly identifies individuals without the disease."
+  },
+  {
+    "id": "M1_037",
+    "system": "Neurology",
+    "q": "A 39-year-old man presents to the Neurology Clinic with difficulty moving his hand. Examination reveals a clawed appearance of the fourth and fifth fingers, wasting of the hypothenar eminence and sensory loss over the medial one and a half fingers. He reports a history of elbow trauma several months ago. What is the most likely diagnosis?",
+    "o": {"A": "Cubital tunnel syndrome", "B": "Cervical radiculopathy (C8-T1)", "C": "Carpal tunnel syndrome", "D": "Thoracic outlet syndrome", "E": "Guyon's canal syndrome"},
+    "a": "A",
+    "e": "Cubital tunnel syndrome is the most likely diagnosis as the ulnar nerve is compressed at the elbow, resulting in a clawed hand appearance of the fourth and fifth fingers, wasting of the hypothenar eminence and sensory loss over the medial one and a half fingers. The history of elbow trauma is a key risk factor. The anatomical distribution of sensory loss aligns with the ulnar nerve. Motor weakness affecting the intrinsic hand muscles is also a hallmark of this condition."
+  },
+  {
+    "id": "M1_038",
+    "system": "Cardiology",
+    "q": "A patient presenting with symptomatic heart failure (NYHA class II), a left ventricular ejection fraction of 28%, and a QRS duration of 150 ms meets specific pacing treatment guidelines. What is the most appropriate next step in management?",
+    "o": {"A": "Implant a cardiac resynchronisation therapy device", "B": "Add oral digoxin therapy", "C": "Increase dose of loop diuretics", "D": "Refer for urgent heart transplantation", "E": "Perform coronary artery bypass grafting"},
+    "a": "A",
+    "e": "Cardiac resynchronisation therapy (CRT) is indicated in patients with symptomatic heart failure (NYHA II–IV), an ejection fraction <=35%, and a QRS duration >=120 ms, particularly with left bundle branch block. This patient's low ejection fraction (28%) and QRS duration of 150 ms without LBBB meet these criteria in NYHA class II. CRT improves ventricular synchrony, reduces symptoms and enhances survival in appropriate patients. Therefore, this is the most appropriate management step."
+  },
+  {
+    "id": "M1_039",
+    "system": "Neurology",
+    "q": "A 65-year-old man presents to the Neurology Clinic with progressive unsteadiness and slurred speech. Examination reveals postural hypotension, parkinsonism and cerebellar ataxia. His symptoms have been unresponsive to levodopa therapy. What is the most appropriate investigation to confirm the diagnosis?",
+    "o": {"A": "Autonomic function testing", "B": "Brain MRI with dedicated sequences", "C": "DaTscan (dopamine transporter imaging)", "D": "Genetic testing for cerebellar ataxia", "E": "Lumbar puncture for cerebrospinal fluid (CSF) analysis"},
+    "a": "B",
+    "e": "Brain MRI with dedicated sequences is the most appropriate investigation for multiple system atrophy, which is the most likely diagnosis given the combination of ataxia, slurred speech, parkinsonism, and significant autonomic dysfunction (postural hypotension) that is unresponsive to levodopa. It can show diagnostic findings in multiple system atrophy, including the 'hot cross bun' sign in the pons and cerebellar atrophy. These findings help distinguish MSA from other parkinsonian syndromes or cerebellar disorders."
+  },
+  {
+    "id": "M1_040",
+    "system": "Clinical Pharmacology",
+    "q": "A 42-year-old man presents to the General Practitioner with fatigue and muscle weakness. Blood tests reveal hypokalaemia and metabolic acidosis, while urine analysis shows glycosuria with normal blood glucose, phosphaturia and proteinuria. He has been taking antiretroviral therapy for HIV infection for the past two years. What is the most likely causative drug?",
+    "o": {"A": "Atazanavir", "B": "Efavirenz", "C": "Raltegravir", "D": "Tenofovir disoproxil fumarate", "E": "Zidovudine"},
+    "a": "D",
+    "e": "Tenofovir disoproxil fumarate is a nucleotide reverse transcriptase inhibitor that is well-documented to cause proximal tubular dysfunction, leading to Fanconi syndrome. This is characterised by glycosuria with normal blood glucose, phosphaturia, hypokalaemia and metabolic acidosis, all of which are present in this patient. Tenofovir-related toxicity occurs due to mitochondrial damage in renal tubular cells. The long-term use of this drug in this patient is a key clue to the diagnosis."
+  },
+  {
+    "id": "M1_041",
+    "system": "Nephrology",
+    "q": "A 23-year-old man presents to the Respiratory Clinic with progressive shortness of breath and visible haematuria. He denies any history of urinary tract infections or recent upper respiratory tract infections. Examination is unremarkable, but laboratory tests reveal elevated creatinine, proteinuria and red cell casts. What is the most likely underlying diagnosis?",
+    "o": {"A": "Anti–glomerular basement membrane (anti-GBM) disease", "B": "Granulomatosis with polyangiitis", "C": "IgA nephropathy", "D": "Minimal change disease", "E": "Post-streptococcal glomerulonephritis"},
+    "a": "A",
+    "e": "Anti-GBM disease, also known as Goodpasture's syndrome, involves both the lungs and kidneys, and is the most likely diagnosis given the combination of rapidly progressive glomerulonephritis with acute renal failure, visible haematuria, proteinuria and red cell casts, which suggest glomerular pathology along with progressive shortness of breath indicating lung involvement. The absence of recent upper respiratory tract infections reduces the likelihood of post-infectious glomerulonephritis. If suspected, confirmatory tests include anti-GBM antibodies and renal biopsy."
+  },
+  {
+    "id": "M1_042",
+    "system": "Palliative Care",
+    "q": "A 65-year-old man is brought to the Emergency Department following a decline in consciousness. He presents with a GCS score of 5 and evidence of tumour expansion with invasion into adjacent brain structures. He has a history of three prior surgical resections for a brain tumour. What is the most appropriate next step in management?",
+    "o": {"A": "Radiotherapy", "B": "Initiate comfort care", "C": "Refer for repeat surgical resection", "D": "Start chemotherapy", "E": "Transfer to intensive care unit for ventilatory support"},
+    "a": "B",
+    "e": "Comfort care is the most appropriate management in this scenario, considering the patient's poor prognosis, advanced tumour invasion and significantly reduced level of consciousness (GCS 5). Further invasive treatments, such as surgery or chemotherapy, are unlikely to provide benefit and may cause unnecessary suffering. Comfort care focuses on symptom control and dignity, which align with the principles of palliative care in advanced malignancy."
+  },
+  {
+    "id": "M1_043",
+    "system": "Neurology",
+    "q": "A 32-year-old man presents to the Emergency Department with progressive weakness over the past two weeks. He reports difficulty climbing stairs initially and tingling in his hands and feet. Examination reveals absent reflexes in all four limbs and reduced muscle strength symmetrically. What is the most likely diagnosis?",
+    "o": {"A": "Acute disseminated encephalomyelitis", "B": "Chronic inflammatory demyelinating polyradiculoneuropathy", "C": "Guillain-Barré syndrome", "D": "Multiple sclerosis", "E": "Myasthenia gavis"},
+    "a": "C",
+    "e": "Guillain-Barré syndrome (GBS) is the most likely diagnosis given the acute onset of progressive symmetrical weakness, absent reflexes, and sensory symptoms such as tingling. GBS is an acute post-infectious autoimmune polyradiculoneuropathy often triggered by a preceding infection. The absence of upper motor neuron signs and the ascending symmetrical nature of weakness further support GBS. Early diagnosis is crucial as respiratory failure can occur in severe cases."
+  },
+  {
+    "id": "M1_044",
+    "system": "Respiratory Medicine",
+    "q": "A 35-year-old woman presents to the Respiratory Clinic with a 3-month history of dry cough and progressive shortness of breath. Examination reveals bilateral hilar lymphadenopathy on a chest X-ray. Serum calcium is elevated and a biopsy from a mediastinal lymph node shows non-caseating granulomas. What is the most likely diagnosis?",
+    "o": {"A": "Allergic bronchopulmonary aspergillosis", "B": "Idiopathic pulmonary fibrosis", "C": "Sarcoidosis", "D": "Silicosis", "E": "Tuberculosis"},
+    "a": "C",
+    "e": "Sarcoidosis, a multisystem inflammatory disease, is the most likely diagnosis given the patient's age, non-productive cough, hilar lymphadenopathy and biopsy showing non-caseating granulomas. Hypercalcemia is a known complication of sarcoidosis due to increased production of 1,25-dihydroxyvitamin D by macrophages in granulomas. This condition commonly affects young adults, often women, and the presence of non-caseating granulomas on biopsy is a key feature. Other differentials are less consistent with the clinical and investigative findings."
+  },
+  {
+    "id": "M1_045",
+    "system": "Psychiatry",
+    "q": "A 32-year-old woman presents to the Emergency Department with agitation and visual hallucinations for one week. She recently returned from a tropical vacation where she took malaria prophylaxis and experienced emotional distress after a breakup. Examination reveals no neurological deficits and no evidence of substance misuse. What is the most likely cause of her symptoms?",
+    "o": {"A": "Acute stress reaction", "B": "Alcohol withdrawal", "C": "Mefloquine-induced psychosis", "D": "Post-traumatic stress disorder", "E": "Schizophrenia"},
+    "a": "C",
+    "e": "Mefloquine-induced psychosis is the most likely cause as the patient recently took this medication, which is known to cause neuropsychiatric side effects, including hallucinations and agitation, even after discontinuation, due to its long half-life. The symptoms' onset after the vacation correlates with mefloquine use. Emotional stress may have exacerbated the presentation, but the history of recent malaria prophylaxis strongly supports drug causation. Neurological examination findings and absence of substance misuse further support this diagnosis."
+  },
+  {
+    "id": "M1_046",
+    "system": "Infectious Diseases",
+    "q": "A 34-year-old man presents to the Emergency Department with a four-day history of watery and occasionally bloody diarrhoea. He returned from a holiday in Egypt two weeks ago, where he consumed street food and tap water. Stool microscopy shows motile trophozoites with ingested red blood cells. What is the most likely causative organism?",
+    "o": {"A": "Campylobacter jejuni", "B": "Entamoeba histolytica", "C": "Escherichia coli", "D": "Giardia lamblia", "E": "Salmonella enteritidis"},
+    "a": "B",
+    "e": "Entamoeba histolytica is the most likely cause, given the history of travel to an area with poor sanitation and consumption of potentially contaminated water or food. The organism is transmitted via the faecal-oral route and can cause amoebic dysentery, characterised by bloody diarrhoea, which usually develops within 2 to 4 weeks. The key diagnostic finding is stool microscopy showing motile trophozoites with ingested red blood cells, which is pathognomonic. This aligns perfectly with the patient's presentation."
+  },
+  {
+    "id": "M1_047",
+    "system": "Respiratory Medicine",
+    "q": "A 65-year-old man presents to the General Practitioner with progressive breathlessness over the past year. He reports a chronic productive cough with mucoid sputum and a 40-pack-year smoking history. Examination reveals reduced breath sounds bilaterally and a prolonged expiratory phase. What is the most likely diagnosis?",
+    "o": {"A": "Asthma", "B": "Bronchiectasis", "C": "Chronic obstructive pulmonary disease", "D": "Lung cancer", "E": "Pulmonary fibrosis"},
+    "a": "C",
+    "e": "Chronic obstructive pulmonary disease (COPD) is the most likely diagnosis given the patient’s progressive, chronic nature of the breathlessness, productive cough and significant smoking history. Reduced breath sounds and a prolonged expiratory phase on examination support the diagnosis of obstructive airway disease. COPD is strongly associated with a smoking history, and this patient’s 40-pack-year history is a key risk factor."
+  },
+  {
+    "id": "M1_048",
+    "system": "Nephrology",
+    "q": "A 21-year-old woman presents to the Emergency Department with a three-day history of painless visible haematuria. She reports no recent trauma or urinary tract infections but mentions occasional ankle swelling. Urinalysis reveals proteinuria and microscopic examination shows red blood cell casts. What is the most likely underlying cause of her presentation?",
+    "o": {"A": "Alport syndrome", "B": "IgA nephropathy", "C": "Polycystic kidney disease", "D": "Post-streptococcal glomerulonephritis", "E": "Systemic lupus erythematosus"},
+    "a": "B",
+    "e": "IgA nephropathy is the most likely diagnosis in this case as it frequently presents with painless visible haematuria, often in young adults. Proteinuria and red blood cell casts on urinalysis are indicative of glomerular involvement, which is consistent with IgA nephropathy. Additionally, ankle swelling may represent subclinical oedema due to mild protein loss. The absence of other systemic symptoms further supports this diagnosis."
+  },
+  {
+    "id": "M1_049",
+    "system": "Rheumatology",
+    "q": "A 25-year-old woman presents to the General Practitioner with complaints of persistent fatigue and unrefreshing sleep for the past seven months. She denies improvement after rest and reports difficulty concentrating on daily tasks, even after minor physical or mental effort. Examination reveals no abnormalities, and routine blood tests are unremarkable. What is the most likely diagnosis?",
+    "o": {"A": "Chronic fatigue syndrome", "B": "Depressive disorder", "C": "Hypothyroidism", "D": "Iron deficiency anaemia", "E": "Obstructive sleep apnoea"},
+    "a": "A",
+    "e": "Chronic fatigue syndrome is supported by the vignette details of persistent fatigue that worsens following physical, mental, or emotional effort lasting longer than six months, unrefreshing sleep and difficulty concentrating, without improvement after rest. The absence of abnormalities on examination and routine tests further strengthens this diagnosis. It is a diagnosis of exclusion requiring thorough evaluation to rule out other causes. The described symptoms align with the diagnostic criteria for chronic fatigue syndrome."
+  },
+  {
+    "id": "M1_050",
+    "system": "Cardiology",
+    "q": "A 32-year-old woman at 32 weeks of gestation presents to the Emergency Department with sudden onset of retrosternal chest pain radiating to her back and dizziness. Examination reveals unequal BP in both arms and no significant ECG changes. What is the most likely diagnosis?",
+    "o": {"A": "Acute myocardial infarction", "B": "Aortic dissection", "C": "Pericarditis", "D": "Pulmonary embolism", "E": "Tension pneumothorax"},
+    "a": "B",
+    "e": "Aortic dissection is the most likely diagnosis given the sudden onset severe chest pain radiating to the back and the finding of unequal blood pressure in both arms. The condition is associated with pregnancy, particularly in the third trimester and postpartum period, due to increased haemodynamic stress and hormonal changes affecting the aortic wall. The absence of ECG changes also supports this diagnosis over myocardial infarction. Prompt imaging with CT angiography or transoesophageal echocardiography would confirm the diagnosis."
+  },
+  {
+    "id": "M1_051",
+    "system": "Biochemistry",
+    "q": "A 25-year-old man presents to his General Practitioner with painful and swollen joints. He reports a limping gait during his university activities. Examination shows no significant abnormalities, but blood tests reveal hyperuricaemia. Which structural component of DNA is responsible for the elevated uric acid levels?",
+    "o": {"A": "Thymine", "B": "Cytosine", "C": "Deoxyribose", "D": "Guanine", "E": "Phosphate group"},
+    "a": "D",
+    "e": "Guanine is a purine base and is directly involved in uric acid production. Purines, specifically adenine and guanine, are degraded via hypoxanthine and xanthine to uric acid by the enzyme xanthine oxidase. Excess breakdown of guanine increases urate production, which can lead to hyperuricaemia and gout. In young adults presenting with painful, swollen joints and elevated serum urate, increased purine metabolism is the key pathological mechanism."
+  },
+  {
+    "id": "M1_052",
+    "system": "Neurology",
+    "q": "A 48-year-old man is referred to the Neurology Clinic with dysphagia and reduced sensation over the posterior third of the tongue. MRI shows a lesion involving the anteromedial compartment of the jugular foramen. Which structure passes through this compartment?",
+    "o": {"A": "Glossopharyngeal nerve", "B": "Internal jugular vein", "C": "Spinal accessory nerve", "D": "Vagus nerve", "E": "Inferior petrosal sinus"},
+    "a": "A",
+    "e": "The glossopharyngeal nerve (cranial nerve IX) passes through the anteromedial compartment of the jugular foramen (pars nervosa) along with the inferior petrosal sinus. This matches the patient’s symptoms of impaired sensation over the posterior tongue and difficulty swallowing, as the glossopharyngeal nerve innervates these regions. Damage to this compartment explains this presentation and fits the imaging findings. Other structures passing through the jugular foramen are located in a different compartment."
+  },
+  {
+    "id": "M1_053",
+    "system": "Clinical Pharmacology",
+    "q": "A 72-year-old woman presents to the Emergency Department with a sudden disturbed level of consciousness. She has been on long-term warfarin therapy and is found to have an INR of 9.0. A CT brain scan reveals subarachnoid haemorrhage. Intravenous vitamin K has been administered to lower her INR. What is the most appropriate next step in management?",
+    "o": {"A": "Administer fresh frozen plasma", "B": "Continue warfarin at a reduced dose", "C": "Discontinue warfarin temporarily and monitor INR closely", "D": "Give prothrombin complex concentrate", "E": "Repeat intravenous vitamin K in 12 hours"},
+    "a": "D",
+    "e": "Prothrombin complex concentrate (PCC) is the most appropriate next step as it rapidly restores coagulation factors depleted by warfarin. With an INR of 9.0 and significant bleeding, PCC provides a faster and more complete correction compared to fresh frozen plasma. PCC is often combined with vitamin K to provide a sustained effect. This approach is supported by guidelines for the management of warfarin-associated coagulopathy."
+  },
+  {
+    "id": "M1_054",
+    "system": "Endocrinology",
+    "q": "A 35-year-old woman presents to the Endocrinology Clinic with persistent fatigue and difficulty controlling her BP. She reports episodes of muscle weakness and occasional headaches. Investigations reveal elevated plasma aldosterone levels and suppressed plasma renin activity. What is the most likely diagnosis?",
+    "o": {"A": "Adrenal adenoma", "B": "Bartter syndrome", "C": "Chronic kidney disease", "D": "Essential hypertension", "E": "Renal artery stenosis"},
+    "a": "A",
+    "e": "An adrenal adenoma causing primary hyperaldosteronism is supported by the vignette findings of elevated aldosterone and suppressed renin. The patient’s symptoms, including muscle weakness and hypertension, are consistent with aldosterone-induced sodium retention, hypokalaemia and increased blood pressure. This fits the classic presentation of Conn’s syndrome. The absence of secondary causes such as renal artery stenosis further supports this diagnosis."
+  },
+  {
+    "id": "M1_055",
+    "system": "Diabetes & Endocrinology",
+    "q": "A 39-year-old man presents to his General Practitioner during Ramadan. He is on pioglitazone for type II diabetes mellitus and expresses his desire to fast. He seeks advice on how to manage his medication during this period. What is the most appropriate advice regarding his pioglitazone during Ramadan fasting?",
+    "o": {"A": "Continue pioglitazone at the same dose but divided.", "B": "Continue pioglitazone at the same dose, but take it with his evening meal.", "C": "Discontinue pioglitazone for the duration of Ramadan.", "D": "Reduce the dose of pioglitazone by half and take it with his evening meal.", "E": "Switch to an alternative antidiabetic medication during Ramadan."},
+    "a": "B",
+    "e": "Pioglitazone can be safely continued during Ramadan due to its low risk of hypoglycaemia. Its long half-life provides glycaemic stability throughout the day and is better taken with an evening meal than in the morning. This recommendation supports patient adherence and effective diabetes management."
+  },
+  {
+    "id": "M1_056",
+    "system": "Cardiology",
+    "q": "A 25-year-old woman is referred to the Cardiology Clinic for evaluation of Turner syndrome. Echocardiography reveals a congenital valvular abnormality. She has no history of chest pain, dyspnoea or cyanosis. What is the most likely congenital valvular abnormality?",
+    "o": {"A": "Aortic stenosis", "B": "Bicuspid aortic valve", "C": "Mitral valve prolapse", "D": "Pulmonary valve stenosis", "E": "Tricuspid atresia"},
+    "a": "B",
+    "e": "Bicuspid aortic valve is the most common congenital valvular abnormality in Turner syndrome, occurring in up to 30% of cases. This condition predisposes individuals to aortic stenosis or regurgitation, but asymptomatic patients may have normal function. The vignette's Turner syndrome diagnosis and the patient's presentation strongly support this diagnosis."
+  },
+  {
+    "id": "M1_057",
+    "system": "Dermatology",
+    "q": "A 6-year-old boy is brought to the Dermatology Clinic with widespread scaling and thickened skin over his palms and soles. His parents report that the condition has been present since infancy and worsens during cold weather. Examination reveals hyperkeratosis with a collodion membrane-like scale and no mucosal involvement. What is the most likely pathogenesis of this condition?",
+    "o": {"A": "Defective keratin 1 and keratin 10", "B": "Defective keratin 5 and keratin 14", "C": "Mutation in the NF-1 gene", "D": "Loss-of-function mutation in transglutaminase 1", "E": "Mutation in ATP2A2 gene"},
+    "a": "D",
+    "e": "A loss-of-function mutation in transglutaminase 1 underlies lamellar ichthyosis, which is consistent with this patient's presentation of a collodion membrane-like scale, generalised hyperkeratosis and palmoplantar keratoderma. Transglutaminase 1 is crucial for cross-linking proteins in the stratum corneum, and its dysfunction leads to impaired epidermal barrier formation."
+  },
+  {
+    "id": "M1_058",
+    "system": "Gastroenterology",
+    "q": "A 67-year-old man presents to the Emergency Department with sudden onset of dysphagia to solids and liquids after eating. He has a history of long-standing gastro-oesophageal reflux disease (GORD) managed with proton pump inhibitors. On examination, there is no evidence of oropharyngeal abnormalities, but oesophagogastroduodenoscopy reveals a circumferential narrowing in the lower oesophagus. What is the most likely diagnosis?",
+    "o": {"A": "Barrett's oesophagus", "B": "Eosinophilic oesophagitis", "C": "Oesophageal adenocarcinoma", "D": "Oesophageal peptic stricture", "E": "Schatzki ring"},
+    "a": "B",
+    "e": "Eosinophilic oesophagitis can cause acute-onset dysphagia, particularly when there is food impaction as the presenting case, or a stricturing process, and circumferential narrowing on endoscopy is a characteristic finding. Although more common in younger patients, it can occur in older adults. The lack of oropharyngeal findings supports an oesophageal cause, and a history of GORD does not exclude eosinophilic oesophagitis. Diagnosis would be confirmed with biopsies demonstrating eosinophilic infiltration."
+  },
+  {
+    "id": "M1_059",
+    "system": "Neurology",
+    "q": "An 82-year-old woman presents to the Emergency Department after experiencing her first generalised tonic-clonic seizure. She has a history of hypertension and mild cognitive impairment but no prior neurological conditions. CT brain is unremarkable, and routine blood tests show no metabolic abnormalities. What is the most appropriate antiepileptic drug to initiate in this patient?",
+    "o": {"A": "Carbamazepine", "B": "Phenobarbital", "C": "Levetiracetam", "D": "Phenytoin", "E": "Sodium valproate"},
+    "a": "C",
+    "e": "Levetiracetam is the most appropriate choice for this elderly woman presenting with new-onset generalised seizures. It has a favourable side effect profile, minimal drug interactions and can be safely used in older adults with comorbidities. Its rapid titration and lack of hepatic metabolism are advantageous in this case. Furthermore, its efficacy in generalised seizures is well-established, making it the preferred option."
+  },
+  {
+    "id": "M1_060",
+    "system": "Nephrology",
+    "q": "A 35-year-old woman presents to the Emergency Department with fatigue and abdominal pain. Arterial blood gas analysis reveals a pH of 7.10, bicarbonate of 15 mmol/L and a normal arterial carbon dioxide tension (PaCO2) of 5 kPa. She has a history of poorly controlled type I diabetes mellitus. What is the most likely acid–base disturbance?",
+    "o": {"A": "Acute respiratory acidosis", "B": "Chronic metabolic acidosis", "C": "Compensated metabolic acidosis", "D": "Uncompensated metabolic acidosis", "E": "Normal acid–base balance"},
+    "a": "D",
+    "e": "This patient has a clear primary metabolic acidosis, demonstrated by a markedly low pH of 7.10 and a reduced bicarbonate of 15 mmol/L. In metabolic acidosis, the respiratory system should compensate by lowering PaCO2 through hyperventilation. However, the PaCO2 is normal at 5 kPa, indicating that appropriate respiratory compensation has not yet occurred. This pattern is consistent with an uncompensated metabolic acidosis, most likely due to diabetic ketoacidosis given the history of poorly controlled type I diabetes and abdominal pain."
+  },
+  {
+    "id": "M1_061",
+    "system": "Dermatology",
+    "q": "A 30-year-old woman is referred to the Dermatology Clinic with multiple small, flesh-coloured papules on her trunk and upper arms that have developed over the past three months. Examination reveals umbilicated lesions with no signs of inflammation or secondary infection. What is the most appropriate management for this patient?",
+    "o": {"A": "Cryotherapy", "B": "Observation", "C": "Oral aciclovir", "D": "Topical imiquimod", "E": "Topical salicylic acid"},
+    "a": "B",
+    "e": "Observation is the most appropriate management for molluscum contagiosum in immunocompetent adults with asymptomatic lesions. The condition is self-limiting, typically resolving within 6-12 months without intervention. This patient has no signs of inflammation or secondary infection, making observation the best approach. Treating the lesions unnecessarily may cause irritation or scarring."
+  },
+  {
+    "id": "M1_062",
+    "system": "Haematology",
+    "q": "A 49-year-old woman is referred to the Haematology Clinic with easy bruising. Laboratory tests reveal a prolonged activated partial thromboplastin time (APTT) ratio. A mixing study with normal plasma shows no significant correction of the APTT. What is the most likely explanation for this finding?",
+    "o": {"A": "Factor VIII deficiency", "B": "Factor XI deficiency", "C": "Lupus anticoagulant", "D": "Vitamin K deficiency", "E": "Von Willebrand factor deficiency"},
+    "a": "C",
+    "e": "Lupus anticoagulant is an antiphospholipid antibody associated with autoimmune diseases such as SLE that interferes with phospholipid-dependent coagulation tests, causing prolonged APTT. It does not correct with a mixing study, as seen in this patient, because it is an inhibitory process rather than a factor deficiency. This mechanism matches the vignette findings perfectly."
+  },
+  {
+    "id": "M1_063",
+    "system": "Clinical Pharmacology",
+    "q": "A 45-year-old woman presents to the Emergency Department with a widespread pruritic rash and facial swelling after being treated for a urinary tract infection. She reports a history of multiple antibiotic allergies, including penicillin and cephalosporins. On examination, she has urticarial plaques and mild periorbital oedema. What is the most likely risk factor for this patient's β-lactam hypersensitivity reaction?",
+    "o": {"A": "Atopy", "B": "Female sex", "C": "History of multiple antibiotic allergies", "D": "Recent viral infection", "E": "Use of high-dose amoxicillin"},
+    "a": "C",
+    "e": "A history of multiple antibiotic allergies is the most significant risk factor in this patient. Cross-reactivity between ß-lactams is well-documented, and this history of previous cephalosporin and penicillin reactions strongly suggests a predisposition to hypersensitivity reactions and highlights cross-reactivity within the ß-lactam class."
+  },
+  {
+    "id": "M1_064",
+    "system": "Respiratory Medicine",
+    "q": "A 45-year-old woman presents to the Respiratory Clinic for evaluation of advanced chronic obstructive pulmonary disease (COPD). She is being considered for lung transplantation after failing maximal medical therapy. Her BMI is recorded as 15.7 kg/m2. What is the most appropriate contraindication to lung transplantation in this patient?",
+    "o": {"A": "Active malignancy", "B": "Advanced age", "C": "Lack of social support", "D": "Severe malnutrition", "E": "Substance abuse"},
+    "a": "D",
+    "e": "Severe malnutrition, as evidenced by the BMI of 15.7, is a relative contraindication to lung transplantation. Malnutrition increases the risk of poor post-transplant outcomes, including impaired wound healing, infections and reduced survival."
+  },
+  {
+    "id": "M1_065",
+    "system": "Haematology",
+    "q": "A 34-year-old Somali man presents to his General Practitioner for routine blood tests. Results show persistent neutropenia, but he reports no systemic symptoms or recurrent infections. Physical examination reveals no abnormal findings, including no lymphadenopathy or splenomegaly. What is the most likely explanation for his neutropenia?",
+    "o": {"A": "Autoimmune neutropenia", "B": "Benign ethnic neutropenia", "C": "Chronic myeloid leukaemia", "D": "Drug-induced neutropenia", "E": "Viral infection"},
+    "a": "B",
+    "e": "Benign ethnic neutropenia is a common variant in individuals of African, Middle Eastern, or West Indian descent, including Somali ethnicity. It is characterised by persistent neutropenia without clinical consequences, as seen in this patient. The absence of systemic symptoms, infections or abnormal examination findings further supports this benign diagnosis. Importantly, no further investigation or treatment is usually required once confirmed."
+  },
+  {
+    "id": "M1_066",
+    "system": "Clinical Pharmacology",
+    "q": "A 58-year-old woman presents to the Emergency Department with diffuse myalgia and weakness. She reports starting amiodarone two weeks ago while continuing atorvastatin for hyperlipidaemia. Examination reveals normal vital signs and no signs of acute inflammation. What is the most likely mechanism for her symptoms?",
+    "o": {"A": "Amiodarone-induced atorvastatin absorption", "B": "Alteration of atorvastatin pharmacokinetics by CYP450 inhibition", "C": "Direct myotoxicity from amiodarone", "D": "Electrolyte imbalance leading to muscle dysfunction", "E": "Vitamin D activation affected by atorvastatin metabolism"},
+    "a": "B",
+    "e": "Amiodarone inhibits Cytochrome P450, especially the CYP3A4 enzyme, leading to higher plasma concentrations and potentiating the risk of toxicity. This aligns with the patient’s new-onset myalgia following amiodarone administration, as amiodarone can interfere with atorvastatin's expected pharmacokinetics."
+  },
+  {
+    "id": "M1_067",
+    "system": "Clinical Pharmacology",
+    "q": "A 56-year-old man presents to the Emergency Department with widespread urticarial rash and pruritus. He was treated for an acute myocardial infarction with appropriate medications one week ago. What is the most likely drug causing this reaction?",
+    "o": {"A": "Aspirin", "B": "Atorvastatin", "C": "Clopidogrel", "D": "Enoxaparin", "E": "Metoprolol"},
+    "a": "C",
+    "e": "Clopidogrel is a known cause of allergic reactions, including urticaria and rash, due to its potential to trigger a delayed hypersensitivity reaction. The temporal relationship between clopidogrel administration during acute MI treatment and rash onset strongly supports this diagnosis. The patient’s symptoms of urticaria and pruritus one week after administration are typical of this adverse drug reaction. Severe systemic allergic reactions rarely occur. Immediate discontinuation with or without desensitisation therapy and substitution with an alternative antiplatelet agent, or oral steroids, while its continuation may be considered."
+  },
+  {
+    "id": "M1_068",
+    "system": "Diabetes & Endocrinology",
+    "q": "A 35-year-old woman presents to the Emergency Department with nausea, vomiting and abdominal pain. She has experienced multiple previous episodes of diabetic ketoacidosis. Autoimmune antibody testing, including islet cell and anti-GAD antibodies, is negative, and she denies polyuria, polydipsia, or weight loss. What is the most likely underlying diagnosis?",
+    "o": {"A": "Latent autoimmune diabetes of adulthood", "B": "Maturity-onset diabetes of the young", "C": "Type I diabetes mellitus", "D": "Type II diabetes mellitus", "E": "Wolfram syndrome"},
+    "a": "B",
+    "e": "Maturity-onset diabetes of the young (MODY) is a monogenic form of diabetes that can present with recurrent diabetic ketoacidosis, mimicking type I diabetes. The absence of autoimmune markers and clinical features of type I diabetes supports the diagnosis of MODY. MODY may occur in younger adults and is inherited in an autosomal dominant pattern. Genetic testing would confirm the diagnosis and guide management."
+  },
+  {
+    "id": "M1_069",
+    "system": "Neurology",
+    "q": "A 72-year-old woman is seen in the Neurology Clinic with a 6-month history of progressive difficulty walking and frequent falls. She reports stiffness, bradykinesia and episodes of dizziness when standing. Neurological examination reveals vertical gaze palsy and postural hypotension. What is the most appropriate first-line imaging investigation to confirm the diagnosis?",
+    "o": {"A": "Brain CT scan", "B": "Brain MRI with diffusion-weighted imaging", "C": "DaTSCAN (dopamine transporter imaging)", "D": "Fluorodeoxyglucose PET scan", "E": "Magnetoencephalography"},
+    "a": "B",
+    "e": "Brain MRI with diffusion-weighted imaging is the most appropriate investigation as it can identify characteristic changes such as selective atrophy in the midbrain ('hummingbird sign') and hot cross bun sign in multiple system atrophy. These findings are highly suggestive of atypical parkinsonian syndromes like progressive supranuclear palsy or multiple system atrophy. MRI also evaluates structural abnormalities that may guide diagnosis. This imaging modality is superior in distinguishing atypical parkinsonism from Parkinson’s disease."
+  },
+  {
+    "id": "M1_070",
+    "system": "Rheumatology",
+    "q": "A 42-year-old woman presents to the rheumatology clinic with joint stiffness and pain in her hands. She reports morning stiffness lasting over an hour and a family history of inflammatory arthritis. Examination reveals symmetrical swelling of the small joints of both hands. What is the most likely genetic susceptibility associated with her condition?",
+    "o": {"A": "HLA-B27", "B": "HLA-DR4", "C": "HLA-DR5", "D": "HLA-DQ2", "E": "HLA-DQ8"},
+    "a": "B",
+    "e": "HLA-DR4 is strongly linked to rheumatoid arthritis, particularly in patients with a family history of the disease. This patient's symmetrical small joint involvement, prolonged morning stiffness and family history are consistent with rheumatoid arthritis, making HLA-DR4 the most likely genetic susceptibility."
+  },
+  {
+    "id": "M1_071",
+    "system": "Infectious Diseases",
+    "q": "A 38-year-old woman presents to the Emergency Department with abdominal pain and diarrhoea. She reports a 2-month history of weight loss and passing segments in her stools. Stool microscopy confirms the presence of tapeworm eggs. What is the most appropriate treatment for this patient?",
+    "o": {"A": "Albendazole", "B": "Ivermectin", "C": "Mebendazole", "D": "Niclosamide", "E": "Praziquantel"},
+    "a": "E",
+    "e": "Praziquantel is the first-line cost-effective treatment for intestinal adult cestode infections. It works by increasing calcium permeability in the parasite's membrane, leading to paralysis and detachment from the intestinal wall. This patient's symptoms of passing segments, weight loss and confirmed tapeworm eggs in stool microscopy make praziquantel the most appropriate treatment. It is well tolerated and effective at eradicating the infection."
+  },
+  {
+    "id": "M1_072",
+    "system": "Respiratory Medicine",
+    "q": "A 67-year-old man presents to the Emergency Department with fever, productive cough and shortness of breath. He is tachycardic, hypotensive and has a respiratory rate of 30 breaths per minute. A chest X-ray reveals a right lower lobe consolidation. What is the most appropriate prognostic marker to assess the severity of his condition?",
+    "o": {"A": "C-reactive protein", "B": "Blood urea nitrogen", "C": "D-dimer levels", "D": "Procalcitonin levels", "E": "White cell count"},
+    "a": "B",
+    "e": "Blood urea nitrogen > 7 mmol/L is a component of the CURB-65 score, which is a validated prognostic tool for assessing the severity and risk of mortality in community-acquired pneumonia. It further incorporates age, confusion, respiratory rate and blood pressure, all of which are clinically relevant in this patient (age >65, respiratory rate >30 and hypotension). A high score would indicate the need for hospitalisation and possibly intensive care."
+  },
+  {
+    "id": "M1_073",
+    "system": "Oncology",
+    "q": "A 67-year-old man presents to the General Practitioner with progressive weight loss and jaundice over the past month. Blood tests reveal elevated bilirubin and alkaline phosphatase, with a CA 19-9 level of 1,200 U/mL. What is the most likely interpretation of the CA 19-9 level in this patient?",
+    "o": {"A": "Benign biliary obstruction", "B": "Cholangitis", "C": "Chronic pancreatitis", "D": "Pancreatic adenocarcinoma", "E": "Primary sclerosing cholangitis"},
+    "a": "D",
+    "e": "Pancreatic adenocarcinoma is the most likely diagnosis given the markedly raised CA 19-9 and obstructive jaundice. CA 19-9 is frequently elevated in pancreatic cancer, particularly when levels exceed 1,000 U/mL. The patient’s progressive weight loss further supports this diagnosis. Both the clinical and biochemical findings are consistent with malignancy."
+  },
+  {
+    "id": "M1_074",
+    "system": "Ophthalmology",
+    "q": "A 72-year-old woman presents to the Emergency Department with sudden-onset painless vision loss in her right eye. She reports a 2-week history of scalp tenderness and intermittent jaw claudication. Examination reveals a relative afferent pupillary defect in the right eye and an elevated erythrocyte sedimentation rate. What is the most likely underlying cause of her visual loss?",
+    "o": {"A": "Anterior ischemic optic neuropathy", "B": "Central retinal artery occlusion", "C": "Optic neuritis", "D": "Posterior ischaemic optic neuropathy", "E": "Systemic lupus erythematosus vasculitis"},
+    "a": "A",
+    "e": "Anterior ischemic optic neuropathy is the most common ocular complication of giant cell arteritis (GCA), causing sudden, painless vision loss. GCA is an inflammatory vasculitis of large and medium-sized arteries, including branches of the external carotid artery. It is the most likely cause of this patient’s presentation as it commonly affects elderly women and is associated with systemic symptoms of scalp tenderness and jaw claudication, along with an elevated ESR. Prompt diagnosis and treatment with corticosteroids are crucial to prevent further visual loss or complications like stroke."
+  },
+  {
+    "id": "M1_075",
+    "system": "Psychiatry",
+    "q": "A 32-year-old woman presents to the General Practitioner complaining of elevated moods lasting weeks, with excessive energy, reduced need for sleep, and impulsive spending, impacting her financial state significantly. She has also experienced periods of low mood, anhedonia and fatigue lasting months. What is the most likely diagnosis?",
+    "o": {"A": "Bipolar affective disorder type I", "B": "Bipolar affective disorder type II", "C": "Cyclothymic disorder", "D": "Major depressive disorder", "E": "Persistent depressive disorder"},
+    "a": "A",
+    "e": "Bipolar affective disorder type I is characterised by episodes of mania with significant impairment in occupational or social functioning and depression. This patient’s description of elevated mood, reduced need for sleep and impulsive spending resulting in significant financial loss is consistent with mania. The prolonged depressive episodes also support this diagnosis. Type I is distinguished from type II by the presence of at least one manic episode, as seen here."
+  },
+  {
+    "id": "M1_076",
+    "system": "Neurology",
+    "q": "A 42-year-old woman attends the Neurology Clinic with a 6-month history of unpleasant sensations in her legs, particularly at night. She describes a constant urge to move her legs, which temporarily relieves the discomfort. Her symptoms worsen with rest and improve with walking or stretching. What is the most likely diagnosis?",
+    "o": {"A": "Chronic venous insufficiency", "B": "Lateral femoral cutaneous neuralgia", "C": "Peripheral neuropathy", "D": "Radiculopathy", "E": "Restless leg syndrome"},
+    "a": "E",
+    "e": "Restless leg syndrome is characterised by an urge to move the legs, worsening symptoms at rest, and improvement with activity, all of which are present here. Its association with night-time discomfort and temporary relief on movement strongly supports this diagnosis. Secondary causes such as iron deficiency or renal disease, would need to be ruled out clinically or through investigations."
+  },
+  {
+    "id": "M1_077",
+    "system": "Clinical Pharmacology",
+    "q": "A 67-year-old man presents to the Neurology Clinic with tingling and numbness in his feet that has progressively worsened over several weeks. He has been on linezolid therapy for a resistant bacterial infection for 8 weeks. What is the most likely adverse effect associated with linezolid therapy in this patient?",
+    "o": {"A": "Aplastic anaemia", "B": "Lactic acidosis", "C": "Optic neuropathy", "D": "Peripheral neuropathy", "E": "Serotonin syndrome"},
+    "a": "D",
+    "e": "Peripheral neuropathy is a well-documented adverse effect of prolonged linezolid therapy, particularly when used for more than 4 weeks. Linezolid inhibits mitochondrial protein synthesis, which can result in neurotoxicity. This patient’s symptoms of tingling and numbness in the feet are classic for peripheral neuropathy, making this the most likely diagnosis."
+  },
+  {
+    "id": "M1_078",
+    "system": "Endocrinology",
+    "q": "A 32-year-old woman is referred to the Endocrinology Clinic with fatigue and mild weight gain 6 months after childbirth. Two weeks ago, blood tests showed a raised free T4 with suppressed TSH, but repeat testing now demonstrates an elevated TSH with low free T4. She denies any neck pain or recent illness. What is the most likely diagnosis?",
+    "o": {"A": "Graves' disease", "B": "Hashimoto's thyroiditis", "C": "Iodine-induced hypothyroidism", "D": "Postpartum thyroiditis", "E": "Subacute (de Quervain’s) thyroiditis"},
+    "a": "D",
+    "e": "Postpartum thyroiditis is autoimmune thyroiditis, characterised by an initial hyperthyroid phase due to thyroid hormone release, followed by a hypothyroid phase as seen in this patient. It is common within the first year postpartum and resolves spontaneously in most cases without signs of inflammation or pain, but permanent hypothyroidism develops in a minority."
+  },
+  {
+    "id": "M1_079",
+    "system": "Gastroenterology",
+    "q": "A 45-year-old man is referred to the Gastroenterology Clinic for review of abnormal liver function tests. He has a history of well-controlled ulcerative colitis and complains of mild fatigue but no jaundice or pruritus. Magnetic resonance cholangiopancreatography (MRCP) shows multifocal stricturing and beading of the intrahepatic and extrahepatic bile ducts. What is the most likely diagnosis?",
+    "o": {"A": "Autoimmune hepatitis", "B": "Drug-induced liver injury", "C": "Non-alcoholic fatty liver disease", "D": "Primary biliary cholangitis", "E": "Primary sclerosing cholangitis"},
+    "a": "E",
+    "e": "Primary sclerosing cholangitis is the most likely diagnosis, given the history of ulcerative colitis and the characteristic MRCP findings of multifocal stricturing and beading of the bile ducts. It is strongly associated with inflammatory bowel disease, especially ulcerative colitis, about 80% and less commonly Crohn’s disease, about 20%. The absence of jaundice or significant symptoms does not exclude the diagnosis, as PSC can be asymptomatic in early stages. The combination of clinical history and imaging findings confirms this diagnosis."
+  },
+  {
+    "id": "M1_080",
+    "system": "Neurology",
+    "q": "An 81-year-old man is referred to the Neurology Clinic with episodes of fluctuating confusion. He reports vivid visual hallucinations, and his wife has noticed he often acts out his dreams during sleep. Examination reveals mild rigidity in the upper limbs and a shuffling gait. What is the most likely diagnosis?",
+    "o": {"A": "Alzheimer’s disease", "B": "Corticobasal degeneration", "C": "Dementia with Lewy bodies", "D": "Frontotemporal dementia", "E": "Progressive supranuclear palsy"},
+    "a": "C",
+    "e": "Dementia with Lewy bodies is the correct diagnosis as this patient has the core features of fluctuating cognition, mainly affecting attention and executive function, early visual hallucinations and features of parkinsonism like muscular rigidity and bradykinesia. Acting out dreams (REM sleep behaviour disorder) is a supportive feature. These features, along with the absence of asymmetrical findings or focal cortical deficits, strongly favour this diagnosis. This condition is caused by abnormal deposition of alpha-synuclein in the brain."
+  },
+  {
+    "id": "M1_081",
+    "system": "Haematology",
+    "q": "A 32-year-old woman presents to the Emergency Department with prolonged bleeding after a dental extraction. She reports a history of heavy menstrual bleeding and easy bruising. Coagulation studies show a prolonged bleeding time and normal platelet count. What is the most likely diagnosis?",
+    "o": {"A": "Factor IX deficiency", "B": "Haemophilia A", "C": "Immune thrombocytopenia", "D": "Von Willebrand disease", "E": "Vitamin K deficiency"},
+    "a": "D",
+    "e": "Von Willebrand disease is the most likely diagnosis as it explains the prolonged bleeding after dental procedures, heavy menstrual bleeding and easy bruising. The normal platelet count with prolonged bleeding time aligns with impaired platelet adhesion due to von Willebrand factor deficiency or dysfunction. This condition is also common in women and often presents with mucocutaneous bleeding."
+  },
+  {
+    "id": "M1_082",
+    "system": "Gastroenterology",
+    "q": "A 55-year-old woman presents to the Gastroenterology Clinic with fatigue and pruritus. Liver function tests reveal an elevated alkaline phosphatase and gamma-glutamyl transferase. Anti-mitochondrial antibody (AMA) is strongly positive. What is the most likely diagnosis?",
+    "o": {"A": "Autoimmune hepatitis", "B": "Non-alcoholic fatty liver disease", "C": "Primary biliary cholangitis", "D": "Primary sclerosing cholangitis", "E": "Viral hepatitis"},
+    "a": "C",
+    "e": "Primary biliary cholangitis (PBC) is an autoimmune disorder that gradually destroys intrahepatic bile ducts and commonly presents in middle-aged women with fatigue, pruritus and a cholestatic liver enzyme profile (elevated alkaline phosphatase and gamma-GT). The hallmark of PBC is the presence of anti-mitochondrial antibodies, which are highly specific for the condition. This patient's presentation and absence of features of metabolic syndrome strongly support the diagnosis of PBC over other differentials."
+  },
+  {
+    "id": "M1_083",
+    "system": "Rheumatology",
+    "q": "A 42-year-old woman presents to the Rheumatology Clinic with a 6-month history of joint pain and morning stiffness lasting over an hour. On examination, there is symmetrical swelling of the small joints of the hands and wrists. Laboratory investigations reveal the presence of the HLA-DR4 allele. What is the most likely diagnosis?",
+    "o": {"A": "Ankylosing spondylitis", "B": "Osteoarthritis", "C": "Psoriatic arthritis", "D": "Reactive arthritis", "E": "Rheumatoid arthritis"},
+    "a": "E",
+    "e": "Rheumatoid arthritis is strongly associated with HLA-DR4 and elevated rheumatoid factor. The symmetrical joint swelling, prolonged morning stiffness and small joint involvement align with this diagnosis. This chronic inflammatory condition affects middle-aged women more commonly."
+  },
+  {
+    "id": "M1_084",
+    "system": "Nephrology",
+    "q": "A 35-year-old woman presents to the Emergency Department with weakness and episodic muscle cramps. Blood tests reveal hypokalaemia and metabolic acidosis with a normal anion gap. Further evaluation shows a urine pH persistently above 5.5. What part of the kidney is most likely involved in this patient's condition?",
+    "o": {"A": "Cortical collecting duct", "B": "Distal tubule", "C": "Glomerulus", "D": "Loop of Henle", "E": "Proximal tubule"},
+    "a": "B",
+    "e": "The distal tubule is the site primarily affected in type 1 renal tubular acidosis (RTA). This condition is characterised by failure of hydrogen ion secretion by alpha-intercalated cells of the distal tubule, resulting in an inability to acidify urine (urine pH > 5.5). This dysfunction leads to hypokalaemia due to failure of H/K ATPase and a normal anion gap metabolic acidosis. It can be primary or secondary to autoimmune diseases, such as SLE and Sjogren syndrome. This patient's clinical presentation and laboratory findings are classic for distal RTA."
+  },
+  {
+    "id": "M1_085",
+    "system": "Oncology",
+    "q": "A 72-year-old man presents to the General Practitioner with worsening urinary hesitancy and nocturia. He reports significant fatigue and unintentional weight loss over the past three months. Digital rectal examination reveals a hard and irregular prostate gland. What is the most appropriate hormonal therapy mechanism for this patient?",
+    "o": {"A": "Androgen receptor blockade", "B": "GnRH agonist with anti-androgen therapy", "C": "GnRH agonist", "D": "Inhibition of CYP17 enzyme", "E": "Oestrogen receptor blockade"},
+    "a": "B",
+    "e": "GnRH agonists initially cause a transient rise in luteinising hormone and testosterone levels, which is why they should be combined with anti-androgen therapy to prevent this initial surge, but subsequently suppress gonadotropin release due to receptor downregulation. This leads to a significant reduction in testosterone production, which is crucial for slowing the progression of hormone-sensitive prostate cancer. The patient's systemic symptoms, along with the irregular prostate, suggest advanced disease, making this the most appropriate hormonal therapy mechanism."
+  },
+  {
+    "id": "M1_086",
+    "system": "Infectious Diseases",
+    "q": "A 22-year-old woman presents to the Emergency Department with fatigue and joint pain for two weeks. She reports a recent upper respiratory tract infection and has a mild maculopapular rash on her cheeks. Blood tests reveal a normocytic anaemia. What is the most likely diagnosis?",
+    "o": {"A": "Adult-onset Still's disease", "B": "Parvovirus B19 infection", "C": "Rheumatoid arthritis", "D": "Systemic lupus erythematosus", "E": "Viral hepatitis"},
+    "a": "B",
+    "e": "Parvovirus B19 infection is supported by the acute onset of the patient's fatigue, joint pain and 'slapped cheek' appearance rash following a viral prodrome. Parvovirus B19 can cause normocytic anaemia due to temporary bone marrow suppression, especially in adults. A recent upper respiratory tract infection is a common prodrome for this viral illness, further solidifying the diagnosis."
+  },
+  {
+    "id": "M1_087",
+    "system": "Diabetes & Endocrinology",
+    "q": "A 24-year-old woman is brought to the Emergency Department with confusion, dizziness and tremors. Laboratory tests reveal hypoglycaemia with a markedly elevated serum insulin level and suppressed C-peptide concentration. She denies taking any medication and her father has type II diabetes mellitus treated with a sulfonylurea. What is the most likely cause of her hypoglycaemia?",
+    "o": {"A": "Liver cirrhosis", "B": "Insulinoma", "C": "Exogenous insulin administration", "D": "Factitious hypoglycaemia with sulfonylurea use", "E": "Non-islet cell tumour hypoglycaemia"},
+    "a": "C",
+    "e": "Exogenous insulin administration is the most likely cause as it leads to elevated serum insulin with a suppressed C-peptide concentration. This is because exogenous insulin does not stimulate endogenous insulin production, which is reflected by the low C-peptide. The patient's denial of medication use and her father's diabetes may suggest intentional or accidental misuse of injectable insulin. Her symptoms of confusion, dizziness and tremors are classic for hypoglycaemia due to insulin overdose."
+  },
+  {
+    "id": "M1_088",
+    "system": "Gastroenterology",
+    "q": "A 62-year-old man presents to the Emergency Department with a sudden onset of difficulty swallowing solids and liquids after eating steak. Examination reveals no neck swelling, and a plain chest X-ray shows no evidence of perforation or mediastinal air. What is the most likely diagnosis?",
+    "o": {"A": "Achalasia", "B": "Boerhaave syndrome", "C": "Distal oesophageal spasm", "D": "Oesophageal foreign body", "E": "Peptic stricture"},
+    "a": "D",
+    "e": "Oesophageal foreign body is the most likely diagnosis given the sudden onset of dysphagia for both solids and liquids after eating steak, a typical precipitant of food bolus impaction. The absence of perforation or mediastinal air excludes complications. Structural lesions such as Schatzki rings or eosinophilic oesophagitis may predispose to impaction, even without prior symptoms. Immediate endoscopic removal confirms the diagnosis and relieves symptoms."
+  },
+  {
+    "id": "M1_089",
+    "system": "Dermatology",
+    "q": "A 32-year-old woman in her third trimester presents to the GP with an intensely itchy rash. Examination reveals erythematous urticarial papules and plaques confined to the abdominal striae, sparing the periumbilical area. She is otherwise systemically well with no mucosal involvement. What is the most likely diagnosis?",
+    "o": {"A": "Atopic eruption of pregnancy", "B": "Herpes gestationis", "C": "Intrahepatic cholestasis of pregnancy", "D": "Pemphigoid gestationis", "E": "Polymorphic eruption of pregnancy"},
+    "a": "E",
+    "e": "Polymorphic eruption of pregnancy commonly arises in the third trimester, predominantly affecting abdominal striae, which may later spread to the back, arms, or thighs. It characteristically spares the periumbilical area, and systemic or mucosal involvement is rare, making this the most likely diagnosis in this case."
+  },
+  {
+    "id": "M1_090",
+    "system": "Infectious Diseases",
+    "q": "An 82-year-old woman is brought to the Emergency Department by her family due to sudden agitation and confusion. She has a history of hypertension and diabetes, but no known dementia. Examination reveals a fever of 39.5 °C and suprapubic tenderness. What is the most likely cause of the patient's delirium?",
+    "o": {"A": "Hypoglycaemia", "B": "Cerebrovascular stroke", "C": "Urinary tract infection", "D": "Alcohol withdrawal", "E": "Medication toxicity"},
+    "a": "C",
+    "e": "Urinary tract infection is a common cause of delirium in elderly patients due to increased susceptibility to infections and systemic inflammatory response. Fever and suprapubic tenderness are classic signs of a urinary tract infection, and her age further supports this diagnosis. Agitation and confusion are typical of delirium secondary to systemic infection. Prompt investigation and management are essential to prevent complications such as sepsis."
+  },
+  {
+    "id": "M1_091",
+    "system": "Haematology",
+    "q": "A 41-year-old woman is referred to the Haematology Clinic with refractory microcytic anaemia despite multiple courses of intravenous iron therapy. Her serum iron is elevated, and ferritin is within the normal range; there is no evidence of ongoing blood loss. She denies gastrointestinal symptoms or a history of malabsorption. What is the most appropriate investigation to confirm the underlying cause?",
+    "o": {"A": "Bone marrow biopsy", "B": "Coeliac serology", "C": "Haemoglobin electrophoresis", "D": "Renal function tests", "E": "Small bowel biopsy"},
+    "a": "C",
+    "e": "Haemoglobin electrophoresis is the most appropriate investigation as it can identify haemoglobinopathies such as beta-thalassaemia. Persistent microcytic anaemia despite elevated serum iron and normal ferritin strongly suggests a genetic cause like thalassaemia, which alters haemoglobin structure and function. This test is essential to confirm the diagnosis and guide further management."
+  },
+  {
+    "id": "M1_092",
+    "system": "Neurology",
+    "q": "A 78-year-old woman presents to her General Practitioner with increasing fatigue and difficulty concentrating. She reports episodes of confusion while driving over the past month. Her history includes well-controlled type II diabetes and a recent diagnosis of mild cognitive impairment confirmed by neuropsychological testing. What is the most appropriate action regarding her fitness to drive?",
+    "o": {"A": "Advise immediate cessation of driving and do not notify the DVLA", "B": "Advise driving cessation, DVLA notification, and refer for further cognitive testing", "C": "Declare fit to drive with regular GP follow-up", "D": "Refer to a neurologist for fitness-to-drive evaluation", "E": "Request a driving simulator assessment"},
+    "a": "B",
+    "e": "Driving cessation is appropriate given the patient's confusion episodes while driving, which pose a safety risk. DVLA notification and referral for further cognitive testing are necessary to assess the extent of her impairment and determine long-term fitness to drive. This aligns with DVLA guidelines, which recommend evaluation in cases of mild cognitive impairment affecting driving ability. Early intervention reduces the risk of accidents and ensures public safety."
+  },
+  {
+    "id": "M1_093",
+    "system": "Gastroenterology",
+    "q": "A 52-year-old woman presents to her General Practitioner with a 3-month history of fatigue and pruritus. She denies alcohol use and notes a family history of autoimmune disease. Examination reveals mild hepatomegaly, and liver function tests show elevated alkaline phosphatase with normal transaminases. What is the most likely diagnosis?",
+    "o": {"A": "Autoimmune hepatitis", "B": "Cholangiocarcinoma", "C": "Non-alcoholic fatty liver disease", "D": "Primary biliary cholangitis", "E": "Primary sclerosing cholangitis"},
+    "a": "D",
+    "e": "Primary biliary cholangitis (PBC) is the most likely diagnosis as it commonly presents in middle-aged women with fatigue, pruritus and isolated elevation of alkaline phosphatase. The presence of mild hepatomegaly and a family history of autoimmune disease further supports this diagnosis. PBC is an autoimmune condition affecting the intrahepatic bile ducts, leading to cholestasis. Confirmation would require antimitochondrial antibody (AMA) testing, which is positive in most cases."
+  },
+  {
+    "id": "M1_094",
+    "system": "Rheumatology",
+    "q": "A 45-year-old man presents to the General Practitioner with elbow pain after months of manual labour involving a sledgehammer. The pain worsens with repetitive wrist extension and gripping activities. On examination, tenderness is noted over the lateral aspect of the elbow, with pain increasing on resisted wrist extension. What is the most likely diagnosis?",
+    "o": {"A": "Biceps tendinopathy", "B": "Cubital tunnel syndrome", "C": "Lateral epicondylitis", "D": "Medial epicondylitis", "E": "Olecranon bursitis"},
+    "a": "C",
+    "e": "Lateral epicondylitis, or tennis elbow, is due to repetitive strain of the common extensor tendon at the origin of the extensor carpi radialis brevis in the lateral epicondyle. This is supported by the patient's occupation involving repetitive wrist extension and gripping. Lateral elbow tenderness and pain on resisted wrist extension, especially when the elbow is extended and the forearm is pronated, are hallmark features of this condition."
+  },
+  {
+    "id": "M1_095",
+    "system": "Nephrology",
+    "q": "A 34-year-old woman presents to the Renal Clinic with oedema and frothy urine for one week. Examination reveals periorbital swelling and pitting oedema in the lower extremities. Urinalysis shows 4+ proteinuria and no haematuria, with a serum albumin level of 20 g/L. What is the most likely diagnosis?",
+    "o": {"A": "Focal segmental glomerulosclerosis", "B": "IgA nephropathy", "C": "Membranous nephropathy", "D": "Minimal change disease", "E": "Post-infectious glomerulonephritis"},
+    "a": "D",
+    "e": "Minimal change disease is the most likely diagnosis in this young woman presenting with nephrotic syndrome, characterised by oedema, frothy urine and severe hypoalbuminaemia. It is the most common cause of nephrotic syndrome in children and can also occur in 10-15% adults, often without other systemic signs. The lack of haematuria and normal renal function further support this diagnosis. Pathophysiology involves podocyte injury visible only on electron microscopy, which distinguishes it from other glomerular diseases."
+  },
+  {
+    "id": "M1_096",
+    "system": "Respiratory Medicine",
+    "q": "A 68-year-old man presents to the respiratory clinic with progressive exertional breathlessness over six months. High-resolution CT imaging reveals reticular shadowing and evidence of fibrosis in both lung bases. He has a history of keeping birds at home but denies smoking or occupational dust exposure. Which investigation is most appropriate to distinguish between idiopathic pulmonary fibrosis and extrinsic allergic alveolitis in this patient?",
+    "o": {"A": "Endobronchial biopsy", "B": "Bronchoalveolar lavage", "C": "Contrast-enhanced CT chest", "D": "Lung function tests with DLCO measurement", "E": "Serum hypersensitivity panel"},
+    "a": "B",
+    "e": "Bronchoalveolar lavage is the most appropriate investigation to distinguish between these two conditions. It can identify lymphocytosis, which is typical of extrinsic allergic alveolitis, whereas idiopathic pulmonary fibrosis usually shows a paucity of inflammatory cells. This patient's history of bird exposure increases suspicion for extrinsic allergic alveolitis, and bronchoalveolar lavage provides critical cellular data to support this diagnosis. Additionally, it is less invasive than biopsy, making it a safer diagnostic option."
+  },
+  {
+    "id": "M1_097",
+    "system": "Rheumatology",
+    "q": "A 28-year-old man presents to the Rheumatology Clinic with a 6-month history of lower back pain that is worse in the morning and improves with exercise. He also reports stiffness lasting over an hour each morning. Examination reveals limited lumbar spine flexion and reduced chest wall expansion. What is the most likely diagnosis?",
+    "o": {"A": "Ankylosing spondylitis", "B": "Degenerative disc disease", "C": "Fibromyalgia", "D": "Reactive arthritis", "E": "Rheumatoid arthritis"},
+    "a": "A",
+    "e": "Ankylosing spondylitis is a chronic inflammatory disease most consistent with this young man’s presentation of chronic inflammatory back pain, morning stiffness >1 hour, and lack of improvement with rest, but relief with exercise. Reduced lumbar spine flexion and decreased chest wall expansion are hallmark findings. The age of onset before 40 and male predominance further support this diagnosis. These findings align with axial spondyloarthritis, of which ankylosing spondylitis is a key subtype."
+  },
+  {
+    "id": "M1_098",
+    "system": "Haematology",
+    "q": "A 67-year-old man presents to the Haematology Clinic with worsening fatigue and pallor. He has a history of chronic lymphocytic leukaemia and recent blood tests show a falling haemoglobin, increased lactate dehydrogenase and reticulocytosis. What is the most appropriate investigation to confirm the cause of the patient's anaemia?",
+    "o": {"A": "Bone marrow biopsy", "B": "Direct antiglobulin test (Coombs test)", "C": "Flow cytometry for clonal B-cell population", "D": "Peripheral blood smear", "E": "Serum haptoglobin measurement"},
+    "a": "B",
+    "e": "The direct antiglobulin test (DAT/Coombs test) is the most appropriate investigation to confirm autoimmune haemolytic anaemia, which is commonly encountered in a CLL patient, given his haemolysis-positive markers mentioned. DAT detects antibodies or complement on the surface of red blood cells, which is the hallmark of this condition. This test directly supports the suspected diagnosis based on the clinical and laboratory findings."
+  },
+  {
+    "id": "M1_099",
+    "system": "Neurology",
+    "q": "A 65-year-old man presents to the Emergency Department with a sudden onset of diplopia, weakness on the right side of his body and facial weakness on the left side. Examination reveals paresis of the right arm and leg, left-sided facial droop and impaired abduction of the left eye. What is the most likely pathological process causing this patient’s presentation?",
+    "o": {"A": "Basilar artery occlusion", "B": "Lacunar infarct of the thalamus", "C": "Multiple sclerosis plaque", "D": "Pontine glioma", "E": "Subarachnoid haemorrhage"},
+    "a": "A",
+    "e": "Basilar artery occlusion is the most likely cause, as it supplies the ventral pons, which contains the corticospinal tract, abducens nucleus and facial nerve fibres. This explains the combination of contralateral hemiparesis, ipsilateral abducens nerve palsy and facial weakness (Millard-Gubler syndrome). The acute onset also supports a vascular aetiology."
+  },
+  {
+    "id": "M1_100",
+    "system": "Gastroenterology",
+    "q": "A 68-year-old man presents to the Emergency Department with agitation. He complains of vomiting blood and feeling light-headed after alcohol consumption. Examination reveals hypotension and a heart rate of 110 bpm. What is the most appropriate sedation strategy for this patient during endoscopy?",
+    "o": {"A": "Avoid sedation and use topical anaesthesia only", "B": "Fentanyl alone with continuous monitoring", "C": "Propofol with fluid resuscitation under anaesthetist supervision", "D": "Sedation with fentanyl and midazolam", "E": "Sedation with large doses of midazolam"},
+    "a": "C",
+    "e": "Propofol with fluid resuscitation under anaesthetist supervision is the most appropriate choice for this patient, given his haemodynamic instability (hypotension and tachycardia) and the need for precise control over sedation during endoscopy. Propofol allows rapid titration, has a short half-life and facilitates airway management during emergencies. Anaesthetist presence ensures advanced support if complications arise."
+  }
+]
