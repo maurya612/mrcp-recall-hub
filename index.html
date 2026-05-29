@@ -22,6 +22,10 @@
                 <option value="">Select Paper (Year/Month)</option>
             </select>
 
+            <select id="subjectSelect" disabled>
+                <option value="">All Subjects / Specialties</option>
+            </select>
+
             <button id="loadBtn" disabled>Load Paper</button>
         </div>
 
@@ -34,6 +38,18 @@
             <div id="questionText">Question content goes here?</div>
             <div id="optionsContainer"></div>
             
+            <button id="submitBtn" class="action-btn">Submit Answer</button>
+            
+            <div id="explanationContainer" class="hidden">
+                <h3>Explanation</h3>
+                <p id="explanationText"></p>
+                <button id="nextBtn" class="action-btn">Next Question</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
             <button id="submitBtn" class="action-btn">Submit Answer</button>
             
             <div id="explanationContainer" class="hidden">
