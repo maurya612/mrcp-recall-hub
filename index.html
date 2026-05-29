@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRCP Recall Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MRCP Recall Hub</h1>
+        
+        <div class="controls">
+            <select id="categorySelect">
+                <option value="">Select Category</option>
+                <option value="part1">Part 1</option>
+                <option value="part2">Part 2</option>
+                <option value="paces">PACES</option>
+            </select>
+
+            <select id="paperSelect" disabled>
+                <option value="">Select Paper (Year/Month)</option>
+            </select>
+
+            <button id="loadBtn" disabled>Load Paper</button>
+        </div>
+
+        <div id="quizContainer" class="hidden">
+            <div id="metaHeader">
+                <div id="progress">Question 1 of 10</div>
+                <div id="systemBadge" class="badge">System</div>
+            </div>
+            
+            <div id="questionText">Question content goes here?</div>
+            <div id="optionsContainer"></div>
+            
+            <button id="submitBtn" class="action-btn">Submit Answer</button>
+            
+            <div id="explanationContainer" class="hidden">
+                <h3>Explanation</h3>
+                <p id="explanationText"></p>
+                <button id="nextBtn" class="action-btn">Next Question</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
 
