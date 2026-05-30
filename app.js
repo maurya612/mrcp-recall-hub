@@ -1,238 +1,79 @@
-const paperMap = {
-    part1: ["2025_sep"], 
-    part2: [],
-    paces: []
-};
 
-let rawFetchedQuestions = []; // Stores the complete original paper array
-let filteredQuestions = [];   // Stores only the filtered questions for the quiz
-let currentIndex = 0;
-let selectedOptionKey = null;
+const paperMap = { part1: ["2025_sep"] }; 
 
-const categorySelect = document.getElementById('categorySelect');
-const paperSelect = document.getElementById('paperSelect');
+let rawQuestions = [];
+let filtered = [];
+let currentIdx = 0;
+
+const catSel = document.getElementById('categorySelect');
+const papSel = document.getElementById('paperSelect');
+const subSel = document.getElementById('subjectSelect');
 const loadBtn = document.getElementById('loadBtn');
-const quizContainer = document.getElementById('quizContainer');
 
-// Step 1: When Category changes, update the Paper list
-categorySelect.addEventListener('change', (e) => {
-    const cat = e.target.value;
-    paperSelect.innerHTML = '<option value="">Select Paper (Year/Month)</option>';
-    subjectSelect.innerHTML = '<option value="">All Subjects / Specialties</option>';
-    subjectSelect.disabled = true;
-    loadBtn.disabled = true;
-
-    if (cat && paperMap[cat] && paperMap[cat].length > 0) {
-        paperMap[cat].forEach(paper => {
-            const opt = document.createElement('option');
-            opt.value = paper;
-            opt.textContent = paper.replace('_', ' ');
-            paperSelect.appendChild(opt);
-        });
-        paperSelect.disabled = false;
-    } else {
-        paperSelect.disabled = true;
-    }
+catSel.addEventListener('change', () => {
+    papSel.innerHTML = '<option value="">Select Paper</option>';
+    paperMap[catSel.value]?.forEach(p => papSel.innerHTML += `<option value="${p}">${p.replace('_', ' ')}</option>`);
+    papSel.disabled = !catSel.value;
 });
 
-// Step 2: When Paper changes, fetch the JSON instantly to discover its available specialties
-paperSelect.addEventListener('change', async (e) => {
-    const cat = categorySelect.value;
-    const paper = e.target.value;
+papSel.addEventListener('change', async () => {
+    const url = `data/${catSel.value}/${papSel.value}.json`;
+    const res = await fetch(url);
+    rawQuestions = await res.json();
     
-    subjectSelect.innerHTML = '<option value="">All Subjects / Specialties</option>';
-    subjectSelect.disabled = true;
-    loadBtn.disabled = true;
-
-    if (!paper) return;
-
-    const url = `data/${cat}/${paper}.json`;
-
-    try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error('Paper file not found.');
-        
-        rawFetchedQuestions = await response.json();
-        
-        // Extract unique systems/specialties from this specific JSON file
-        const uniqueSubjects = [...new Set(rawFetchedQuestions.map(item => item.system))].sort();
-        
-        // Populate the Subject Dropdown dynamically
-        uniqueSubjects.forEach(subj => {
-            if (subj) { 
-                const opt = document.createElement('option');
-                opt.value = subj;
-                opt.textContent = subj;
-                subjectSelect.appendChild(opt);
-            }
-        });
-
-        subjectSelect.disabled = false;
-        loadBtn.disabled = false; // Ready to render the exam layout
-
-    } catch (err) {
-        alert('Error parsing paper map layout: ' + err.message);
-    }
+    const subjects = [...new Set(rawQuestions.map(q => q.primary_system))];
+    subSel.innerHTML = '<option value="">All Specialties</option>';
+    subjects.forEach(s => subSel.innerHTML += `<option value="${s}">${s}</option>`);
+    subSel.disabled = false;
+    loadBtn.disabled = false;
 });
 
-// Step 3: Run the quiz based on selection filters
 loadBtn.addEventListener('click', () => {
-    const chosenSubject = subjectSelect.value;
-    
-    // Filter down questions if a specific specialty was targeted
-    if (chosenSubject) {
-        filteredQuestions = rawFetchedQuestions.filter(q => q.system === chosenSubject);
-    } else {
-        filteredQuestions = [...rawFetchedQuestions]; // Use the whole file
-    }
-
-    if (filteredQuestions.length === 0) {
-        alert('No questions found matching this subset criteria.');
-        return;
-    }
-
-    currentIndex = 0;
-    quizContainer.classList.remove('hidden');
-    showQuestion();
+    filtered = subSel.value ? rawQuestions.filter(q => q.primary_system === subSel.value) : rawQuestions;
+    currentIdx = 0;
+    document.getElementById('quizContainer').classList.remove('hidden');
+    showQ();
 });
 
-function showQuestion() {
-    const qData = filteredQuestions[currentIndex];
+function showQ() {
+    const q = filtered[currentIdx];
+    document.getElementById('progress').textContent = `Question ${currentIdx + 1} / ${filtered.length}`;
+    document.getElementById('systemBadge').textContent = q.primary_system;
+    document.getElementById('questionText').textContent = q.question;
     
-    document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${filteredQuestions.length}`;
-    document.getElementById('systemBadge').textContent = qData.system;
-    document.getElementById('questionText').textContent = qData.q;
+    const cont = document.getElementById('optionsContainer');
+    cont.innerHTML = '';
     
-    const optionsDiv = document.getElementById('optionsContainer');
-    optionsDiv.innerHTML = '';
+    // Map your new options object structure
+    Object.entries(q.options).forEach(([key, val]) => {
+        cont.innerHTML += `
+            <label class="option-label" data-key="${key}">
+                <input type="radio" name="q" value="${key}"> <strong>${key}.</strong> ${val}
+            </label>`;
+    });
     document.getElementById('explanationContainer').classList.add('hidden');
     document.getElementById('submitBtn').classList.remove('hidden');
-    selectedOptionKey = null;
-
-    Object.keys(qData.o).forEach(key => {
-        const optionValue = qData.o[key];
-        const label = document.createElement('label');
-        label.className = 'option-label';
-        label.dataset.key = key;
-        
-        label.innerHTML = `<input type="radio" name="quiz-opt" value="${key}"> <strong>${key}.</strong> ${optionValue}`;
-        label.addEventListener('change', () => { selectedOptionKey = key; });
-        optionsDiv.appendChild(label);
-    });
 }
 
 document.getElementById('submitBtn').addEventListener('click', () => {
-    if (!selectedOptionKey) {
-        alert('Please select an answer choice.');
-        return;
-    }
+    const selected = document.querySelector('input[name="q"]:checked');
+    if (!selected) return alert('Select an option');
     
-    const qData = filteredQuestions[currentIndex];
+    const q = filtered[currentIdx];
     const labels = document.querySelectorAll('.option-label');
-    const correctAnswerKey = qData.a;
-
-    labels.forEach(label => {
-        const currentLabelKey = label.dataset.key;
-        const input = label.querySelector('input');
-        
-        if (currentLabelKey === correctAnswerKey) {
-            label.classList.add('correct');
-        } else if (currentLabelKey === selectedOptionKey && selectedOptionKey !== correctAnswerKey) {
-            label.classList.add('incorrect');
-        }
-        input.disabled = true;
+    
+    labels.forEach(l => {
+        const key = l.dataset.key;
+        if (q.options[key] === q.answer) l.classList.add('correct');
+        else if (key === selected.value) l.classList.add('incorrect');
     });
-
-    document.getElementById('explanationText').textContent = qData.e;
+    
+    document.getElementById('explanationText').textContent = q.explanation;
     document.getElementById('explanationContainer').classList.remove('hidden');
     document.getElementById('submitBtn').classList.add('hidden');
 });
 
 document.getElementById('nextBtn').addEventListener('click', () => {
-    currentIndex++;
-    if (currentIndex < filteredQuestions.length) {
-        showQuestion();
-    } else {
-        alert('Evaluation session completed for this selection layout.');
-        quizContainer.classList.add('hidden');
-    }
+    if (++currentIdx < filtered.length) showQ();
+    else alert('Finished!');
 });
-loadBtn.addEventListener('click', async () => {
-    const cat = categorySelect.value;
-    const paper = paperSelect.value;
-    const url = `data/${cat}/${paper}.json`;
-
-    try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error('Paper file not found.');
-        currentQuestions = await response.json();
-        currentIndex = 0;
-        quizContainer.classList.remove('hidden');
-        showQuestion();
-    } catch (err) {
-        alert('Error: ' + err.message);
-    }
-});
-
-function showQuestion() {
-    const qData = currentQuestions[currentIndex];
-    
-    document.getElementById('progress').textContent = `Question ${currentIndex + 1} of ${currentQuestions.length}`;
-    document.getElementById('systemBadge').textContent = qData.system;
-    document.getElementById('questionText').textContent = qData.q;
-    
-    const optionsDiv = document.getElementById('optionsContainer');
-    optionsDiv.innerHTML = '';
-    document.getElementById('explanationContainer').classList.add('hidden');
-    document.getElementById('submitBtn').classList.remove('hidden');
-    selectedOptionKey = null;
-
-    Object.keys(qData.o).forEach(key => {
-        const optionValue = qData.o[key];
-        const label = document.createElement('label');
-        label.className = 'option-label';
-        label.dataset.key = key;
-        
-        label.innerHTML = `<input type="radio" name="quiz-opt" value="${key}"> <strong>${key}.</strong> ${optionValue}`;
-        label.addEventListener('change', () => { selectedOptionKey = key; });
-        optionsDiv.appendChild(label);
-    });
-}
-
-document.getElementById('submitBtn').addEventListener('click', () => {
-    if (!selectedOptionKey) {
-        alert('Please select an answer choice.');
-        return;
-    }
-    
-    const qData = currentQuestions[currentIndex];
-    const labels = document.querySelectorAll('.option-label');
-    const correctAnswerKey = qData.a;
-
-    labels.forEach(label => {
-        const currentLabelKey = label.dataset.key;
-        const input = label.querySelector('input');
-        
-        if (currentLabelKey === correctAnswerKey) {
-            label.classList.add('correct');
-        } else if (currentLabelKey === selectedOptionKey && selectedOptionKey !== correctAnswerKey) {
-            label.classList.add('incorrect');
-        }
-        input.disabled = true;
-    });
-
-    document.getElementById('explanationText').textContent = qData.e;
-    document.getElementById('explanationContainer').classList.remove('hidden');
-    document.getElementById('submitBtn').classList.add('hidden');
-});
-
-document.getElementById('nextBtn').addEventListener('click', () => {
-    currentIndex++;
-    if (currentIndex < currentQuestions.length) {
-        showQuestion();
-    } else {
-        alert('Evaluation finished!');
-        quizContainer.classList.add('hidden');
-    }
-});
-      
