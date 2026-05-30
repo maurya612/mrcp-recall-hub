@@ -11,7 +11,6 @@ let selectedOptionKey = null;
 
 const categorySelect = document.getElementById('categorySelect');
 const paperSelect = document.getElementById('paperSelect');
-const subjectSelect = document.getElementById('subjectSelect');
 const loadBtn = document.getElementById('loadBtn');
 const quizContainer = document.getElementById('quizContainer');
 
