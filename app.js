@@ -1,5 +1,5 @@
 const paperMap = {
-    part1: ["2025_sep"], 
+    part1: ["2025_sep.json"], 
     part2: [],
     paces: []
 };
